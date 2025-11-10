@@ -1,0 +1,151 @@
+/**
+ * Customize Dialog Styles
+ */
+
+.customize-dialog {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.customize-dialog__content {
+    background: #0b181e;
+    border: 1px solid rgb(150, 148, 171);
+    border-radius: 8px;
+    max-width: 900px;
+    width: 100%;
+    max-height: 90vh;
+    overflow-y: auto;
+    color: rgb(136, 138, 156);
+}
+
+.customize-dialog__header {
+    padding: 20px;
+    border-bottom: 1px solid rgb(150, 148, 171);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.customize-dialog__title {
+    font-size: 24px;
+    color: #fff;
+}
+
+.customize-dialog__close {
+    background: none;
+    border: none;
+    color: rgb(136, 138, 156);
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.customize-dialog__close:hover {
+    color: #fff;
+}
+
+.customize-dialog__tabs {
+    display: flex;
+    border-bottom: 1px solid rgb(150, 148, 171);
+}
+
+.customize-dialog__tab {
+    padding: 12px 24px;
+    background: none;
+    border: none;
+    color: rgb(136, 138, 156);
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    font-size: 14px;
+}
+
+.customize-dialog__tab:hover {
+    color: #fff;
+}
+
+.customize-dialog__tab.active {
+    color: #5ec753;
+    border-bottom-color: #5ec753;
+}
+
+.customize-dialog__tab-content {
+    padding: 20px;
+}
+
+.customize-dialog__section {
+    margin-bottom: 24px;
+}
+
+.customize-dialog__section-title {
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 12px;
+}
+
+.customize-dialog__field {
+    margin-bottom: 16px;
+}
+
+.customize-dialog__label {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(136, 138, 156);
+    font-size: 14px;
+}
+
+.customize-dialog__select,
+.customize-dialog__input {
+    width: 100%;
+    padding: 8px 12px;
+    background: #050b0d;
+    border: 1px solid rgb(150, 148, 171);
+    color: #fff;
+    font-size: 14px;
+    border-radius: 4px;
+}
+
+.customize-dialog__select:focus,
+.customize-dialog__input:focus {
+    outline: none;
+    border-color: #5ec753;
+}
+
+.customize-dialog__button {
+    padding: 8px 16px;
+    background: #5ec753;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.customize-dialog__button:hover {
+    background: #4fb043;
+}
+
+.customize-dialog__button--secondary {
+    background: #0b181e;
+    color: rgb(136, 138, 156);
+    border: 1px solid rgb(150, 148, 171);
+}
+
+.customize-dialog__button--secondary:hover {
+    background: rgb(150, 148, 171);
+    color: #fff;
+}
+
