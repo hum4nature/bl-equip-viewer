@@ -1,0 +1,60 @@
+/**
+ * Strengths & Weaknesses Styles
+ */
+
+.str-weak {
+    margin-top: 32px;
+    padding: 20px;
+    background: #0b181e;
+    border: 1px solid rgb(150, 148, 171);
+    border-radius: 8px;
+}
+
+.str-weak__title {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.str-weak__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+}
+
+.str-weak__section {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.str-weak__section-title {
+    font-size: 16px;
+    color: #fff;
+}
+
+.str-weak__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.str-weak__item {
+    padding: 8px 12px;
+    background: #050b0d;
+    border-radius: 4px;
+    color: rgb(136, 138, 156);
+    font-size: 14px;
+}
+
+.str-weak__item--strength {
+    border-left: 3px solid #5ec753;
+}
+
+.str-weak__item--weakness {
+    border-left: 3px solid #c1780f;
+}
+

@@ -1,0 +1,561 @@
+/**
+ * Equipment Section Styles
+ * Extracted and converted from maxroll.gg style.css
+ */
+
+.equipment {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding: 16px 24px 24px;
+    user-select: none;
+    background: linear-gradient(180deg, #050b0d 25.52%, #0b181e 57.51%, #0b181e 75.25%, #050b0d 100%);
+    
+    /* CSS Variables for weapon clip-path calculations */
+    --weap-id-cut-offset: 32%;
+    --weap-id-cut-small: 18%;
+    --weap-id-cut-center-offset: 12%;
+    --weap-id-cut-side-width: 24%;
+    --weap-id-cut-large: calc(50% - var(--weap-id-cut-offset));
+    --weap-id-cut-large-neg: calc(100% - var(--weap-id-cut-large));
+    --weap-id-cut-small-neg: calc(100% - var(--weap-id-cut-small));
+    --cut-width: 10%;
+    --cut-width-neg: calc(100% - var(--cut-width));
+    --cut-height: calc(var(--cut-width) * 159 / 82);
+    --cut-height-neg: calc(100% - var(--cut-height));
+}
+
+.equipment.equipment--editable .equipment__weapon,
+.equipment.equipment--editable .equipment__repkit,
+.equipment.equipment--editable .equipment__ordnance,
+.equipment.equipment--editable .equipment__classMod,
+.equipment.equipment--editable .equipment__shield,
+.equipment.equipment--editable .equipment__enhancement {
+    cursor: pointer;
+}
+
+/* Weapons Section */
+.equipment__weapons {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1.1;
+}
+
+.equipment__weapon {
+    position: absolute;
+    display: flex;
+    gap: 6px;
+}
+
+.equipment__weaponSlot {
+    position: relative;
+    flex: 1;
+}
+
+.equipment__weaponNumber {
+    display: flex;
+    flex: 0 0 26px;
+    align-items: center;
+    justify-content: center;
+}
+
+.equipment__weaponNumber > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    max-width: 100%;
+    height: 40px;
+    max-height: 100%;
+    padding: 4px;
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 22px;
+    line-height: 16px;
+    color: rgb(136, 138, 156);
+    background: rgb(11, 24, 30);
+}
+
+.equipment__weaponContent {
+    position: relative;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.equipment__weaponIconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 1 / 1;
+    object-fit: contain;
+}
+
+.equipment__weaponIcon {
+    max-width: 80px;
+    max-height: 40px;
+}
+
+.equipment__weaponAdd {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 500%;
+    line-height: 50%;
+    color: rgb(136, 138, 156);
+}
+
+/* Support Section */
+.equipment__support {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.equipment__supportUsable {
+    display: flex;
+    gap: 12px;
+}
+
+.equipment__repkit,
+.equipment__ordnance {
+    flex: 1;
+    aspect-ratio: 159 / 82;
+}
+
+/* Auxiliaries Section */
+.equipment__auxiliaries {
+    display: flex;
+    gap: 12px;
+}
+
+.equipment__classMod,
+.equipment__shield,
+.equipment__enhancement {
+    flex: 1;
+    aspect-ratio: 12 / 10;
+}
+
+.equipment__repkit,
+.equipment__ordnance,
+.equipment__classMod,
+.equipment__shield,
+.equipment__enhancement {
+    position: relative;
+}
+
+/* Slot Backgrounds */
+.equipment__slotBkg {
+    position: absolute;
+    top: 2px;
+    right: 2px;
+    bottom: 2px;
+    left: 2px;
+}
+
+.equipment__slotBkg.equipment__slotBkg--flip {
+    scale: -1 1;
+}
+
+.equipment__slotContent {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.equipment__slotIconWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: contain;
+}
+
+.equipment__slotIcon {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.equipment__slotAdd {
+    font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    font-size: 500%;
+    line-height: 50%;
+    color: rgb(136, 138, 156);
+}
+
+/* Rarity Styles - Gray */
+.equipment__rarity--gray .equipment__weaponSlotBkg {
+    background: #050b0d radial-gradient(115.47% 100.06% at var(--weap-bkg-pos), rgba(136, 138, 156, .5) 0%, rgba(136, 138, 156, .2) 40%, rgba(136, 138, 156, 0) 100%);
+}
+
+.equipment__rarity--gray.equipment__classMod,
+.equipment__rarity--gray.equipment__shield,
+.equipment__rarity--gray.equipment__enhancement {
+    border: 1px solid #9694ab;
+}
+
+.equipment__rarity--gray .equipment__slotBorder,
+.equipment__rarity--gray .equipment__weaponSlotBorder {
+    background: #9694ab;
+}
+
+.equipment__rarity--gray .equipment__slotBkg {
+    background: linear-gradient(303.51deg, rgba(136, 138, 156, 0) -2.44%, rgba(136, 138, 156, .2) 59.95%, rgba(136, 138, 156, .5) 101.55%);
+}
+
+/* Rarity Styles - Green */
+.equipment__rarity--green .equipment__weaponSlotBkg {
+    background: #050b0d radial-gradient(115.47% 100.06% at var(--weap-bkg-pos), rgba(94, 199, 83, .5) 0%, rgba(94, 199, 83, .2) 40%, rgba(94, 199, 83, 0) 100%);
+}
+
+.equipment__rarity--green.equipment__classMod,
+.equipment__rarity--green.equipment__shield,
+.equipment__rarity--green.equipment__enhancement {
+    border: 1px solid #5ec753;
+}
+
+.equipment__rarity--green .equipment__slotBorder,
+.equipment__rarity--green .equipment__weaponSlotBorder {
+    background: #5ec753;
+}
+
+.equipment__rarity--green .equipment__slotBkg {
+    background: linear-gradient(303.51deg, rgba(94, 199, 83, 0) -2.44%, rgba(94, 199, 83, .2) 59.95%, rgba(94, 199, 83, .5) 101.55%);
+}
+
+/* Rarity Styles - Blue */
+.equipment__rarity--blue .equipment__weaponSlotBkg {
+    background: #050b0d radial-gradient(115.47% 100.06% at var(--weap-bkg-pos), rgba(39, 101, 179, .5) 0%, rgba(39, 101, 179, .2) 40%, rgba(39, 101, 179, 0) 100%);
+}
+
+.equipment__rarity--blue.equipment__classMod,
+.equipment__rarity--blue.equipment__shield,
+.equipment__rarity--blue.equipment__enhancement {
+    border: 1px solid #00a3d0;
+}
+
+.equipment__rarity--blue .equipment__slotBorder,
+.equipment__rarity--blue .equipment__weaponSlotBorder {
+    background: #00a3d0;
+}
+
+.equipment__rarity--blue .equipment__slotBkg {
+    background: linear-gradient(304.67deg, rgba(39, 101, 179, 0) -2.44%, rgba(39, 101, 179, .2) 59.95%, rgba(39, 101, 179, .5) 101.55%);
+}
+
+/* Rarity Styles - Purple */
+.equipment__rarity--purple .equipment__weaponSlotBkg {
+    background: #050b0d radial-gradient(115.47% 100.06% at var(--weap-bkg-pos), rgba(142, 29, 182, .5) 0%, rgba(142, 29, 182, .2) 40%, rgba(142, 29, 182, 0) 100%);
+}
+
+.equipment__rarity--purple.equipment__classMod,
+.equipment__rarity--purple.equipment__shield,
+.equipment__rarity--purple.equipment__enhancement {
+    border: 1px solid #8e1db6;
+}
+
+.equipment__rarity--purple .equipment__slotBorder,
+.equipment__rarity--purple .equipment__weaponSlotBorder {
+    background: #8e1db6;
+}
+
+.equipment__rarity--purple .equipment__slotBkg {
+    background: linear-gradient(303.51deg, rgba(142, 29, 182, 0) -2.44%, rgba(142, 29, 182, .2) 59.95%, rgba(142, 29, 182, .5) 101.55%);
+}
+
+/* Rarity Styles - Orange */
+.equipment__rarity--orange .equipment__weaponSlotBkg {
+    background: #050b0d radial-gradient(115.47% 100.06% at var(--weap-bkg-pos), rgba(193, 120, 15, .5) 0%, rgba(193, 120, 15, .2) 40%, rgba(193, 120, 15, 0) 100%);
+}
+
+.equipment__rarity--orange.equipment__classMod,
+.equipment__rarity--orange.equipment__shield,
+.equipment__rarity--orange.equipment__enhancement {
+    border: 1px solid #c1780f;
+}
+
+.equipment__rarity--orange .equipment__slotBorder,
+.equipment__rarity--orange .equipment__weaponSlotBorder {
+    background: #c1780f;
+}
+
+.equipment__rarity--orange .equipment__slotBkg {
+    background: linear-gradient(304.67deg, rgba(193, 120, 15, 0) -2.17%, rgba(193, 120, 15, .2) 59.13%, rgba(193, 120, 15, .5) 100%);
+}
+
+.equipment__weaponSlotBkg {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+}
+
+.equipment__repkit .equipment__slotBkg,
+.equipment__ordnance .equipment__slotBkg {
+    top: 3px;
+    right: 3px;
+    bottom: 3px;
+    left: 3px;
+}
+
+.equipment__slotBorder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.equipment__slotBorder:after {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    bottom: 1px;
+    left: 1px;
+    content: "";
+    background: #0b181e;
+}
+
+.equipment__weaponSlotBorder {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* Weapon Position 1 (Left) */
+.equipment__weapon--n1 {
+    --weap-bkg-pos: 100% 49.5%;
+    top: 50%;
+    left: 0;
+    flex-direction: row;
+    width: 53%;
+    height: 56%;
+    translate: 0 -50%;
+}
+
+.equipment__weapon--n1 .equipment__weaponSlotBorder {
+    justify-content: flex-start;
+    clip-path: polygon(
+        var(--weap-id-cut-large) 0,
+        calc(var(--weap-id-cut-large) + var(--weap-id-cut-side-width)) 0,
+        100% calc(50% - var(--weap-id-cut-center-offset)),
+        100% calc(50% + var(--weap-id-cut-center-offset)),
+        calc(var(--weap-id-cut-large) + var(--weap-id-cut-side-width)) 100%,
+        var(--weap-id-cut-large) 100%,
+        0 var(--weap-id-cut-small-neg),
+        0 var(--weap-id-cut-small)
+    );
+}
+
+.equipment__weapon--n1 .equipment__weaponSlotBkg {
+    justify-content: flex-start;
+    clip-path: polygon(
+        var(--weap-id-cut-large) 0%,
+        calc(var(--weap-id-cut-large) + var(--weap-id-cut-side-width)) 0,
+        100% calc(50% - var(--weap-id-cut-center-offset)),
+        100% calc(50% + var(--weap-id-cut-center-offset)),
+        calc(var(--weap-id-cut-large) + var(--weap-id-cut-side-width)) 100%,
+        var(--weap-id-cut-large) 100%,
+        0 var(--weap-id-cut-small-neg),
+        0 var(--weap-id-cut-small)
+    );
+}
+
+.equipment__weapon--n1 .equipment__weaponNumber > div {
+    justify-content: flex-start;
+    clip-path: polygon(
+        var(--weap-id-cut-large) 0,
+        calc(100% - var(--weap-id-cut-offset)) 50%,
+        var(--weap-id-cut-large) 100%,
+        0 var(--weap-id-cut-small-neg),
+        0 var(--weap-id-cut-small)
+    );
+}
+
+/* Weapon Position 2 (Top) */
+.equipment__weapon--n2 {
+    --weap-bkg-pos: 49.5% 100%;
+    top: 0;
+    left: 50%;
+    flex-direction: column;
+    width: 56%;
+    height: 53%;
+    translate: -50% 0;
+}
+
+.equipment__weapon--n2 .equipment__weaponContent {
+    padding-bottom: 18%;
+}
+
+.equipment__weapon--n2 .equipment__weaponSlotBorder,
+.equipment__weapon--n2 .equipment__weaponSlotBkg {
+    align-items: flex-start;
+    clip-path: polygon(
+        var(--weap-id-cut-small) 0,
+        var(--weap-id-cut-small-neg) 0,
+        100% var(--weap-id-cut-large),
+        100% calc(var(--weap-id-cut-large) + var(--weap-id-cut-side-width)),
+        calc(50% + var(--weap-id-cut-center-offset)) 100%,
+        calc(50% - var(--weap-id-cut-center-offset)) 100%,
+        0 calc(var(--weap-id-cut-large) + var(--weap-id-cut-side-width)),
+        0 var(--weap-id-cut-large)
+    );
+}
+
+.equipment__weapon--n2 .equipment__weaponNumber > div {
+    align-items: flex-start;
+    clip-path: polygon(
+        var(--weap-id-cut-small) 0,
+        var(--weap-id-cut-small-neg) 0,
+        100% var(--weap-id-cut-large),
+        50% calc(100% - var(--weap-id-cut-offset)),
+        0 var(--weap-id-cut-large)
+    );
+}
+
+/* Weapon Position 3 (Right) */
+.equipment__weapon--n3 {
+    --weap-bkg-pos: 0 49.5%;
+    top: 50%;
+    right: 0;
+    flex-direction: row-reverse;
+    width: 53%;
+    height: 56%;
+    translate: 0 -50%;
+}
+
+.equipment__weapon--n3 .equipment__weaponSlotBorder,
+.equipment__weapon--n3 .equipment__weaponSlotBkg {
+    justify-content: flex-end;
+    clip-path: polygon(
+        calc(var(--weap-id-cut-large-neg) - var(--weap-id-cut-side-width)) 0,
+        var(--weap-id-cut-large-neg) 0,
+        100% var(--weap-id-cut-small),
+        100% var(--weap-id-cut-small-neg),
+        var(--weap-id-cut-large-neg) 100%,
+        calc(var(--weap-id-cut-large-neg) - var(--weap-id-cut-side-width)) 100%,
+        0 calc(50% + var(--weap-id-cut-center-offset)),
+        0 calc(50% - var(--weap-id-cut-center-offset))
+    );
+}
+
+.equipment__weapon--n3 .equipment__weaponNumber > div {
+    justify-content: flex-end;
+    clip-path: polygon(
+        var(--weap-id-cut-large-neg) 0,
+        100% var(--weap-id-cut-small),
+        100% var(--weap-id-cut-small-neg),
+        var(--weap-id-cut-large-neg) 100%,
+        calc(var(--weap-id-cut-offset)) 50%
+    );
+}
+
+/* Weapon Position 4 (Bottom) */
+.equipment__weapon--n4 {
+    --weap-bkg-pos: 49.5% 0;
+    bottom: 0;
+    left: 50%;
+    flex-direction: column-reverse;
+    width: 56%;
+    height: 53%;
+    translate: -50% 0;
+}
+
+.equipment__weapon--n4 .equipment__weaponContent {
+    padding-top: 18%;
+}
+
+.equipment__weapon--n4 .equipment__weaponSlotBorder,
+.equipment__weapon--n4 .equipment__weaponSlotBkg {
+    align-items: flex-end;
+    clip-path: polygon(
+        calc(50% - var(--weap-id-cut-center-offset)) 0,
+        calc(50% + var(--weap-id-cut-center-offset)) 0,
+        100% calc(var(--weap-id-cut-large-neg) - var(--weap-id-cut-side-width)),
+        100% var(--weap-id-cut-large-neg),
+        var(--weap-id-cut-small-neg) 100%,
+        var(--weap-id-cut-small) 100%,
+        0 var(--weap-id-cut-large-neg),
+        0 calc(var(--weap-id-cut-large-neg) - var(--weap-id-cut-side-width))
+    );
+}
+
+.equipment__weapon--n4 .equipment__weaponNumber > div {
+    align-items: flex-end;
+    clip-path: polygon(
+        50% calc(var(--weap-id-cut-offset)),
+        100% var(--weap-id-cut-large-neg),
+        var(--weap-id-cut-small-neg) 100%,
+        var(--weap-id-cut-small) 100%,
+        0 var(--weap-id-cut-large-neg)
+    );
+}
+
+/* Repkit Clip-path */
+.equipment__repkit .equipment__slotBkg,
+.equipment__repkit .equipment__slotBorder {
+    clip-path: polygon(
+        0 0,
+        var(--cut-width-neg) 0,
+        100% var(--cut-height),
+        100% var(--cut-height-neg),
+        var(--cut-width-neg) 100%,
+        var(--cut-width) 100%,
+        0 var(--cut-height-neg)
+    );
+}
+
+.equipment__repkit .equipment__slotBorder:after {
+    clip-path: polygon(
+        0 0,
+        var(--cut-width-neg) 0,
+        100% var(--cut-height),
+        100% var(--cut-height-neg),
+        var(--cut-width-neg) 100%,
+        var(--cut-width) 100%,
+        0 var(--cut-height-neg)
+    );
+}
+
+/* Ordnance Clip-path */
+.equipment__ordnance .equipment__slotBkg {
+    clip-path: polygon(
+        0 0,
+        var(--cut-width-neg) 0,
+        100% var(--cut-height),
+        100% var(--cut-height-neg),
+        var(--cut-width-neg) 100%,
+        var(--cut-width) 100%,
+        0 var(--cut-height-neg)
+    );
+}
+
+.equipment__ordnance .equipment__slotBorder {
+    clip-path: polygon(
+        var(--cut-width) 0,
+        100% 0,
+        100% var(--cut-height-neg),
+        var(--cut-width-neg) 100%,
+        var(--cut-width) 100%,
+        0 var(--cut-height-neg),
+        0 var(--cut-height)
+    );
+}
+
+.equipment__ordnance .equipment__slotBorder:after {
+    clip-path: polygon(
+        var(--cut-width) 0,
+        100% 0,
+        100% var(--cut-height-neg),
+        var(--cut-width-neg) 100%,
+        var(--cut-width) 100%,
+        0 var(--cut-height-neg),
+        0 var(--cut-height)
+    );
+}
+
