@@ -1,6 +1,6 @@
 # BL Equipment Editor - 1:1 HTML/JavaScript Copy
 
-A standalone HTML/JavaScript application that replicates the maxroll.gg BL Four Equipment Editor.
+A standalone HTML/JavaScript application that replicates the BL Four Equipment Editor.
 
 ## File Structure
 
@@ -66,7 +66,6 @@ bl4-equipment-editor/
 ## Usage
 
 1. Open `index.html` in a modern web browser
-2. The app will attempt to load game data from `../maxroll.gg-build-planner/bl4-chunk-00-e58afd3e.js`
 3. If the chunk file is not accessible, the app will use an empty data structure
 
 ## Game Data Loading
@@ -76,11 +75,6 @@ The app attempts to dynamically import the game data chunk file. If this fails, 
 1. Ensure the chunk file path is correct relative to `index.html`
 2. Or modify `game-data.js` to load data from a different source
 3. Or embed the game data directly in `game-data.js`
-
-## Image Assets
-
-Images are loaded from the maxroll CDN by default:
-- Base URL: `https://assets-ng.maxroll.gg/bl4-tools/assets/db/assets/`
 
 To use local images:
 1. Download images from the CDN
@@ -98,7 +92,7 @@ To use local images:
 - The augment selection tab is a placeholder and needs full implementation
 - Item library selection is not yet implemented
 - Legendary base selection needs to be connected to actual game data
-- Some advanced features from maxroll.gg may not be fully implemented yet
+- Some advanced features from may not be fully implemented yet
 
 ## Development
 
@@ -111,6 +105,7 @@ To extend functionality:
 
 ## License
 
-This is a recreation/port of the maxroll.gg Borderlands 4 planner for educational purposes.
+This is a recreation/port for educational purposes.
+
 
 
