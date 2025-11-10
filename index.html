@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BL4 Equipment Editor</title>
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/equipment.css">
+    <link rel="stylesheet" href="css/customize-dialog.css">
+    <link rel="stylesheet" href="css/str-weak.css">
+    <link rel="stylesheet" href="css/notes.css">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Coda&family=Pridi:wght@400;500;600&family=Source+Sans+3:wght@400;500;600&display=swap');
+        
+        :root {
+            --maxroll-font-bl4: "Coda", system-ui;
+            --maxroll-font-bl4-number: "Coda", system-ui;
+            --maxroll-bl4-color-level-4: 167, 200, 255;
+            --maxroll-bl4-color-level-10: 194, 162, 255;
+            --maxroll-bl4-color-level-20: 255, 234, 204;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Source Sans 3', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background-color: #050b0d;
+            color: rgb(136, 138, 156);
+            min-height: 100vh;
+        }
+        
+        .app-container {
+            max-width: 360px;
+            min-width: 320px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        .header {
+            margin-bottom: 24px;
+        }
+        
+        .header h1 {
+            color: #fff;
+            font-size: 32px;
+            margin-bottom: 8px;
+        }
+        
+        .edit-mode-toggle {
+            margin-bottom: 24px;
+        }
+        
+        .edit-mode-toggle button {
+            background-color: #0b181e;
+            color: rgb(136, 138, 156);
+            border: 1px solid rgb(150, 148, 171);
+            padding: 8px 16px;
+            font-size: 14px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+        
+        .edit-mode-toggle button:hover {
+            background-color: rgb(150, 148, 171);
+        }
+        
+        .edit-mode-toggle button.active {
+            background-color: #5ec753;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="app-container">
+        <div class="header">
+            <h1>Borderlands 4 - Equipment Editor</h1>
+        </div>
+        
+        <div class="edit-mode-toggle">
+            <button id="editModeToggle" class="active">Edit Mode: ON</button>
+        </div>
+        
+        <!-- Equipment Section -->
+        <div id="equipment-container" class="equipment equipment--editable">
+            <!-- Will be populated by equipment.js -->
+        </div>
+        
+        <!-- Strengths & Weaknesses Section -->
+        <div id="str-weak-container" class="str-weak">
+            <!-- Will be populated by str-weak-handler.js -->
+        </div>
+        
+        <!-- Notes Section -->
+        <div id="notes-container" class="notes">
+            <!-- Will be populated by notes-handler.js -->
+        </div>
+    </div>
+    
+    <!-- Customize Dialog (hidden by default) -->
+    <div id="customize-dialog" class="customize-dialog" style="display: none;">
+        <!-- Will be populated by customize-dialog.js -->
+    </div>
+    
+    <!-- Load game data first -->
+    <script type="module" src="js/game-data.js"></script>
+    
+    <!-- Load utility functions -->
+    <script type="module" src="js/utils.js"></script>
+    
+    <!-- Load handlers -->
+    <script type="module" src="js/equipment.js"></script>
+    <script type="module" src="js/customize-dialog.js"></script>
+    <script type="module" src="js/select-dialog.js"></script>
+    <script type="module" src="js/augment-selector.js"></script>
+    <script type="module" src="js/str-weak-handler.js"></script>
+    <script type="module" src="js/notes-handler.js"></script>
+    <script type="module" src="js/firmware-handler.js"></script>
+    
+    <!-- Main app initialization -->
+    <script type="module">
+        import { loadGameData } from './js/game-data.js';
+        import { Equipment } from './js/equipment.js';
+        import CustomizeDialog from './js/customize-dialog.js';
+        import { StrWeakHandler } from './js/str-weak-handler.js';
+        import { NotesHandler } from './js/notes-handler.js';
+        
+        let gameData = null;
+        let equipment = null;
+        let customizeDialog = null;
+        let strWeakHandler = null;
+        let notesHandler = null;
+        
+        async function init() {
+            console.log('Loading game data...');
+            try {
+                gameData = await loadGameData();
+                console.log('Game data loaded:', gameData);
+            } catch (error) {
+                console.error('Failed to load game data:', error);
+                // Continue with empty game data
+                gameData = {
+                    manufacturers: {},
+                    elements: {},
+                    itemAugments: {},
+                    statAugments: {},
+                    legendaryItemAugments: {},
+                    firmwares: {},
+                    weapons: {},
+                    repkits: {},
+                    ordnances: {},
+                    'class-mods': {},
+                    shields: {},
+                    enhancements: {}
+                };
+            }
+            
+            // Initialize equipment
+            try {
+                equipment = new Equipment('equipment-container', gameData);
+                equipment.setEditable(true);
+                console.log('Equipment initialized');
+            } catch (error) {
+                console.error('Failed to initialize equipment:', error);
+                return;
+            }
+            
+            // Initialize customize dialog
+            let customizeDialog = null;
+            try {
+                customizeDialog = new CustomizeDialog('customize-dialog', gameData);
+                console.log('Customize dialog initialized');
+            } catch (error) {
+                console.error('Failed to initialize customize dialog:', error);
+                // Try to create it anyway - the error might be recoverable
+                try {
+                    customizeDialog = new CustomizeDialog('customize-dialog', gameData);
+                    console.log('Customize dialog initialized on retry');
+                } catch (e2) {
+                    console.error('Dialog initialization completely failed:', e2);
+                }
+            }
+            
+            // Connect equipment to dialog - MUST happen after both are initialized
+            if (equipment) {
+                equipment.onSlotClick((slotId, currentItem) => {
+                    console.log('Opening customize dialog for:', slotId, 'Dialog available:', !!customizeDialog);
+                    if (customizeDialog && typeof customizeDialog.open === 'function') {
+                        customizeDialog.open(slotId, currentItem, (updatedItem) => {
+                            equipment.setItem(slotId, updatedItem);
+                        });
+                    } else {
+                        console.error('Customize dialog not available or open method missing');
+                    }
+                });
+                console.log('Slot click callback registered, callbacks count:', equipment.slotClickCallbacks.length);
+            }
+            
+            // Initialize strengths/weaknesses
+            try {
+                strWeakHandler = new StrWeakHandler('str-weak-container', equipment);
+            } catch (error) {
+                console.error('Failed to initialize strengths/weaknesses:', error);
+            }
+            
+            // Initialize notes
+            try {
+                notesHandler = new NotesHandler('notes-container');
+            } catch (error) {
+                console.error('Failed to initialize notes:', error);
+            }
+            
+            // Override setItem to update strengths/weaknesses
+            if (equipment) {
+                const originalSetItem = equipment.setItem.bind(equipment);
+                equipment.setItem = (slotId, item) => {
+                    originalSetItem(slotId, item);
+                    if (strWeakHandler) {
+                        strWeakHandler.update();
+                    }
+                };
+            }
+            
+            // Edit mode toggle
+            const editToggle = document.getElementById('editModeToggle');
+            if (editToggle && equipment) {
+                editToggle.addEventListener('click', () => {
+                    const isEditable = equipment.isEditable();
+                    equipment.setEditable(!isEditable);
+                    editToggle.textContent = `Edit Mode: ${!isEditable ? 'ON' : 'OFF'}`;
+                    editToggle.classList.toggle('active', !isEditable);
+                });
+            }
+            
+            console.log('Equipment Editor initialized');
+        }
+        
+        init().catch(console.error);
+    </script>
+</body>
+</html>
+
