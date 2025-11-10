@@ -1,6 +1,6 @@
-# BL4 Equipment Editor - 1:1 HTML/JavaScript Copy
+# BL Equipment Editor - 1:1 HTML/JavaScript Copy
 
-A standalone HTML/JavaScript application that replicates the maxroll.gg Borderlands 4 Equipment Editor.
+A standalone HTML/JavaScript application that replicates the maxroll.gg BL Four Equipment Editor.
 
 ## File Structure
 
@@ -112,4 +112,5 @@ To extend functionality:
 ## License
 
 This is a recreation/port of the maxroll.gg Borderlands 4 planner for educational purposes.
+
 
