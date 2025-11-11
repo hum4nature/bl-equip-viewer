@@ -1,0 +1,43 @@
+{
+  "manufacturers": {},
+  "elements": {},
+  "characters": {
+    "vex": {
+      "id": "vex",
+      "name": "Vex"
+    },
+    "rafa": {
+      "id": "rafa",
+      "name": "Rafa"
+    },
+    "amon": {
+      "id": "amon",
+      "name": "Amon"
+    },
+    "harlowe": {
+      "id": "harlowe",
+      "name": "Harlowe"
+    },
+    "passive": {
+      "id": "passive",
+      "name": "Passive"
+    },
+    "augment": {
+      "id": "augment",
+      "name": "Augment"
+    },
+    "capstone": {
+      "id": "capstone",
+      "name": "Capstone"
+    }
+  },
+  "rarities": {},
+  "weaponTypes": [
+    "heavy-weapon",
+    "pistol",
+    "shotgun",
+    "smg",
+    "sniper"
+  ],
+  "version": "1.0.0"
+}
