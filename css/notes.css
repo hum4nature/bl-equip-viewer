@@ -1,0 +1,62 @@
+/**
+ * Notes Section Styles
+ */
+
+.notes {
+    margin-top: 32px;
+    padding: 20px;
+    background: #0b181e;
+    border: 1px solid rgb(150, 148, 171);
+    border-radius: 8px;
+}
+
+.notes__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.notes__title {
+    font-size: 20px;
+    color: #fff;
+}
+
+.notes__edit-button {
+    padding: 8px 16px;
+    background: #5ec753;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.notes__edit-button:hover {
+    background: #4fb043;
+}
+
+.notes__content {
+    min-height: 200px;
+    padding: 12px;
+    background: #050b0d;
+    border: 1px solid rgb(150, 148, 171);
+    border-radius: 4px;
+    color: rgb(136, 138, 156);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.notes__content:focus {
+    outline: none;
+    border-color: #5ec753;
+}
+
+.notes__content[contenteditable="false"] {
+    cursor: default;
+}
+
+.notes__content[contenteditable="true"] {
+    cursor: text;
+}
+
