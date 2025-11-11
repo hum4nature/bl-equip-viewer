@@ -1,0 +1,2762 @@
+{
+  "weapons": [
+    {
+      "original": "assault.webp",
+      "path": "resources\\assets\\equipment\\weapons\\assault.webp"
+    },
+    {
+      "original": "imgi_18_shotgun (1).webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_18_shotgun (1).webp"
+    },
+    {
+      "original": "imgi_18_shotgun.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_18_shotgun.webp"
+    },
+    {
+      "original": "imgi_18_smg.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_18_smg.webp"
+    },
+    {
+      "original": "imgi_19_assault.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_19_assault.webp"
+    },
+    {
+      "original": "imgi_19_pistol.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_19_pistol.webp"
+    },
+    {
+      "original": "imgi_20_assault.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_20_assault.webp"
+    },
+    {
+      "original": "imgi_20_grenade-charges.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_20_grenade-charges.webp"
+    },
+    {
+      "original": "imgi_20_smg.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_20_smg.webp"
+    },
+    {
+      "original": "imgi_21_shotgun.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_21_shotgun.webp"
+    },
+    {
+      "original": "imgi_22_grenade-charges.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_22_grenade-charges.webp"
+    },
+    {
+      "original": "imgi_23_grenade-charges.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_23_grenade-charges.webp"
+    },
+    {
+      "original": "imgi_36_ico_passive_paladin_weapon_master.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_36_ico_passive_paladin_weapon_master.webp"
+    },
+    {
+      "original": "imgi_42_ico_passive_siren_grave_weaponry.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_42_ico_passive_siren_grave_weaponry.webp"
+    },
+    {
+      "original": "imgi_50_ico_passive_paladin_empowered_weapons.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_50_ico_passive_paladin_empowered_weapons.webp"
+    },
+    {
+      "original": "imgi_60_ico_passive_paladin_quickened_weapons.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_60_ico_passive_paladin_quickened_weapons.webp"
+    },
+    {
+      "original": "imgi_62_ico_passive_paladin_sharpened_weapons.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_62_ico_passive_paladin_sharpened_weapons.webp"
+    },
+    {
+      "original": "pistol.webp",
+      "path": "resources\\assets\\equipment\\weapons\\pistol.webp"
+    },
+    {
+      "original": "shotgun.webp",
+      "path": "resources\\assets\\equipment\\weapons\\shotgun.webp"
+    },
+    {
+      "original": "smg.webp",
+      "path": "resources\\assets\\equipment\\weapons\\smg.webp"
+    },
+    {
+      "original": "sniper.webp",
+      "path": "resources\\assets\\equipment\\weapons\\sniper.webp"
+    },
+    {
+      "original": "imgi_16_pistol.webp",
+      "path": "resources\\assets\\equipment\\weapons\\imgi_16_pistol.webp"
+    },
+    {
+      "original": "sniper.webp",
+      "path": "resources\\assets\\equipment\\weapons\\sniper_1.webp"
+    }
+  ],
+  "manufacturers": [
+    {
+      "original": "2K-Borderlands-4-Partnership-ARTICLE.avif",
+      "path": "resources\\assets\\equipment\\manufacturers\\2K-Borderlands-4-Partnership-ARTICLE.avif"
+    },
+    {
+      "original": "An-official-screenshot-of-Vex-in-Borderlands-4.avif",
+      "path": "resources\\assets\\equipment\\manufacturers\\An-official-screenshot-of-Vex-in-Borderlands-4.avif"
+    },
+    {
+      "original": "An-official-screenshot-of-Vex-in-gBorderlands-4 (1).avif",
+      "path": "resources\\assets\\equipment\\manufacturers\\An-official-screenshot-of-Vex-in-gBorderlands-4 (1).avif"
+    },
+    {
+      "original": "borderlands-4-banner-desktop-3.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\borderlands-4-banner-desktop-3.webp"
+    },
+    {
+      "original": "Borderlands-4-Kammerjaeger-mit-Vex-im-Fokus-780x438.jpg",
+      "path": "resources\\assets\\equipment\\manufacturers\\Borderlands-4-Kammerjaeger-mit-Vex-im-Fokus-780x438.jpg"
+    },
+    {
+      "original": "borderlands-4-red-logo.svg",
+      "path": "resources\\assets\\equipment\\manufacturers\\borderlands-4-red-logo.svg"
+    },
+    {
+      "original": "Borderlands4_JnuoRea6Nu.png",
+      "path": "resources\\assets\\equipment\\manufacturers\\Borderlands4_JnuoRea6Nu.png"
+    },
+    {
+      "original": "Borderlands_4_Amon.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\Borderlands_4_Amon.webp"
+    },
+    {
+      "original": "Borderlands_4_Harlowe.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\Borderlands_4_Harlowe.webp"
+    },
+    {
+      "original": "Borderlands_4_Rafa.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\Borderlands_4_Rafa.webp"
+    },
+    {
+      "original": "borderlands_4_transparent_character_png_by_wallpaper_background_dk06as6-pre.png",
+      "path": "resources\\assets\\equipment\\manufacturers\\borderlands_4_transparent_character_png_by_wallpaper_background_dk06as6-pre.png"
+    },
+    {
+      "original": "Borderlands_4_Vex.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\Borderlands_4_Vex.webp"
+    },
+    {
+      "original": "borderlands-4-banner-desktop-3.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\borderlands-4-banner-desktop-3_1.webp"
+    },
+    {
+      "original": "borderlands-4-banner-mobile-3.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\borderlands-4-banner-mobile-3.webp"
+    },
+    {
+      "original": "daedalus-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\daedalus-banner.webp"
+    },
+    {
+      "original": "daedalus-header-logo.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\daedalus-header-logo.webp"
+    },
+    {
+      "original": "imgi_103_borderlands-4-banner-desktop-3.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_103_borderlands-4-banner-desktop-3.webp"
+    },
+    {
+      "original": "imgi_105_borderlands-4-banner-desktop-3 (1).webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_105_borderlands-4-banner-desktop-3 (1).webp"
+    },
+    {
+      "original": "imgi_105_borderlands-4-banner-desktop-3.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_105_borderlands-4-banner-desktop-3.webp"
+    },
+    {
+      "original": "imgi_125_discovery.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_125_discovery.webp"
+    },
+    {
+      "original": "imgi_127_discovery (1).webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_127_discovery (1).webp"
+    },
+    {
+      "original": "imgi_127_discovery.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_127_discovery.webp"
+    },
+    {
+      "original": "imgi_49_ico_passive_exo_coverage.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_49_ico_passive_exo_coverage.webp"
+    },
+    {
+      "original": "imgi_5_borderlands-4-red-logo (1).svg",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_5_borderlands-4-red-logo (1).svg"
+    },
+    {
+      "original": "imgi_5_borderlands-4-red-logo (2).svg",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_5_borderlands-4-red-logo (2).svg"
+    },
+    {
+      "original": "imgi_5_borderlands-4-red-logo.svg",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_5_borderlands-4-red-logo.svg"
+    },
+    {
+      "original": "jakobs-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\jakobs-banner.webp"
+    },
+    {
+      "original": "jakobs-header-logo.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\jakobs-header-logo.webp"
+    },
+    {
+      "original": "jakobs.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\jakobs.webp"
+    },
+    {
+      "original": "maliwan-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\maliwan-banner.webp"
+    },
+    {
+      "original": "maliwan-header-logo.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\maliwan-header-logo.webp"
+    },
+    {
+      "original": "order-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\order-banner.webp"
+    },
+    {
+      "original": "order-header-logo.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\order-header-logo.webp"
+    },
+    {
+      "original": "tediore-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\tediore-banner.webp"
+    },
+    {
+      "original": "tediore-header-logo.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\tediore-header-logo.webp"
+    },
+    {
+      "original": "tediore.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\tediore.webp"
+    },
+    {
+      "original": "vladof-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\vladof-banner.webp"
+    },
+    {
+      "original": "vladof-header-logo.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\vladof-header-logo.webp"
+    },
+    {
+      "original": "borderlands-4-banner-desktop-3.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\borderlands-4-banner-desktop-3_2.webp"
+    },
+    {
+      "original": "daedalus-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\daedalus-banner_1.webp"
+    },
+    {
+      "original": "hyperion.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\hyperion.webp"
+    },
+    {
+      "original": "imgi_125_borderlands-4-banner-mobile-3.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_125_borderlands-4-banner-mobile-3.webp"
+    },
+    {
+      "original": "imgi_38_ico_passive_exo_coverage.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_38_ico_passive_exo_coverage.webp"
+    },
+    {
+      "original": "imgi_5_borderlands-4-red-logo.svg",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_5_borderlands-4-red-logo_1.svg"
+    },
+    {
+      "original": "imgi_87_vladof-header-logo.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_87_vladof-header-logo.webp"
+    },
+    {
+      "original": "imgi_96_vladof-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\imgi_96_vladof-banner.webp"
+    },
+    {
+      "original": "jakobs-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\jakobs-banner_1.webp"
+    },
+    {
+      "original": "jakobs.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\jakobs_1.webp"
+    },
+    {
+      "original": "maliwan-banner (1).webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\maliwan-banner (1).webp"
+    },
+    {
+      "original": "maliwan-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\maliwan-banner_1.webp"
+    },
+    {
+      "original": "order-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\order-banner_1.webp"
+    },
+    {
+      "original": "ripper-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\ripper-banner.webp"
+    },
+    {
+      "original": "vladof-banner.webp",
+      "path": "resources\\assets\\equipment\\manufacturers\\vladof-banner_1.webp"
+    }
+  ],
+  "item-augments": [
+    {
+      "original": "imgi_109_augment-default.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_109_augment-default.webp"
+    },
+    {
+      "original": "imgi_111_augment-default (1).webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_111_augment-default (1).webp"
+    },
+    {
+      "original": "imgi_111_augment-default.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_111_augment-default.webp"
+    },
+    {
+      "original": "imgi_135_active-augment-ornament.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_135_active-augment-ornament.webp"
+    },
+    {
+      "original": "imgi_136_active-augment-ornament.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_136_active-augment-ornament.webp"
+    },
+    {
+      "original": "imgi_137_active-augment-ornament.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_137_active-augment-ornament.webp"
+    },
+    {
+      "original": "imgi_32_SkilliconPaladin_augment_AdaptiveCore.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_32_SkilliconPaladin_augment_AdaptiveCore.webp"
+    },
+    {
+      "original": "imgi_33_SkilliconSiren_Augment_MediumArmor.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_33_SkilliconSiren_Augment_MediumArmor.webp"
+    },
+    {
+      "original": "imgi_34_SkilliconExo_augment_InstaFortBattleSystem.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_34_SkilliconExo_augment_InstaFortBattleSystem.webp"
+    },
+    {
+      "original": "imgi_39_SkilliconExo_augment_AlteredCabron.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_39_SkilliconExo_augment_AlteredCabron.webp"
+    },
+    {
+      "original": "imgi_39_SkilliconPaladin_augment_AxeAndStone.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_39_SkilliconPaladin_augment_AxeAndStone.webp"
+    },
+    {
+      "original": "imgi_39_SkilliconSiren_Augment_Geistwave.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_39_SkilliconSiren_Augment_Geistwave.webp"
+    },
+    {
+      "original": "imgi_41_SkilliconExo_augment_DeadManWalking.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_41_SkilliconExo_augment_DeadManWalking.webp"
+    },
+    {
+      "original": "imgi_41_SkilliconPaladin_augment_WarMachine.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_41_SkilliconPaladin_augment_WarMachine.webp"
+    },
+    {
+      "original": "imgi_41_SkilliconSiren_Augment_EnergyVampire.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_41_SkilliconSiren_Augment_EnergyVampire.webp"
+    },
+    {
+      "original": "imgi_48_SkilliconExo_augment_ThunderCutter.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_48_SkilliconExo_augment_ThunderCutter.webp"
+    },
+    {
+      "original": "imgi_48_SkilliconPaladin_augment_HammerTime.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_48_SkilliconPaladin_augment_HammerTime.webp"
+    },
+    {
+      "original": "imgi_48_SkilliconSiren_Augment_IronMaiden.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_48_SkilliconSiren_Augment_IronMaiden.webp"
+    },
+    {
+      "original": "imgi_55_SkilliconExo_augment_PartingGift.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_55_SkilliconExo_augment_PartingGift.webp"
+    },
+    {
+      "original": "imgi_56_SkilliconPaladin_augment_StormOfSwords.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_56_SkilliconPaladin_augment_StormOfSwords.webp"
+    },
+    {
+      "original": "imgi_56_SkilliconSiren_Augment_WitchyTriggerFinger.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_56_SkilliconSiren_Augment_WitchyTriggerFinger.webp"
+    },
+    {
+      "original": "imgi_63_SkilliconExo_augment_AcidDrop.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_63_SkilliconExo_augment_AcidDrop.webp"
+    },
+    {
+      "original": "imgi_64_SkilliconPaladin_augment_FrostFire.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_64_SkilliconPaladin_augment_FrostFire.webp"
+    },
+    {
+      "original": "imgi_64_SkilliconSiren_Augment_PhaseReap.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_64_SkilliconSiren_Augment_PhaseReap.webp"
+    },
+    {
+      "original": "imgi_100_repkit-aug-d-elemental-immunity-radiation.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_100_repkit-aug-d-elemental-immunity-radiation.webp"
+    },
+    {
+      "original": "imgi_101_repkit-aug-d-elemental-immunity-shock.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_101_repkit-aug-d-elemental-immunity-shock.webp"
+    },
+    {
+      "original": "imgi_102_repkit-aug-d-elemental-resist-corrosive.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_102_repkit-aug-d-elemental-resist-corrosive.webp"
+    },
+    {
+      "original": "imgi_103_repkit-aug-d-elemental-resist-cryo.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_103_repkit-aug-d-elemental-resist-cryo.webp"
+    },
+    {
+      "original": "imgi_104_repkit-aug-d-elemental-resist-fire.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_104_repkit-aug-d-elemental-resist-fire.webp"
+    },
+    {
+      "original": "imgi_105_repkit-aug-d-elemental-resist-radiation.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_105_repkit-aug-d-elemental-resist-radiation.webp"
+    },
+    {
+      "original": "imgi_106_repkit-aug-d-elemental-resist-shock.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_106_repkit-aug-d-elemental-resist-shock.webp"
+    },
+    {
+      "original": "imgi_107_repkit-aug-d-health-burst.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_107_repkit-aug-d-health-burst.webp"
+    },
+    {
+      "original": "imgi_108_repkit-aug-d-increased-healing.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_108_repkit-aug-d-increased-healing.webp"
+    },
+    {
+      "original": "imgi_109_repkit-aug-d-lifesteal.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_109_repkit-aug-d-lifesteal.webp"
+    },
+    {
+      "original": "imgi_110_repkit-aug-d-overshield.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_110_repkit-aug-d-overshield.webp"
+    },
+    {
+      "original": "imgi_111_repkit-aug-d-shield-recharge.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_111_repkit-aug-d-shield-recharge.webp"
+    },
+    {
+      "original": "imgi_131_augment-default.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_131_augment-default.webp"
+    },
+    {
+      "original": "imgi_28_SkilliconExo_augment_AlteredCabron.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_28_SkilliconExo_augment_AlteredCabron.webp"
+    },
+    {
+      "original": "imgi_30_SkilliconExo_augment_DeadManWalking.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_30_SkilliconExo_augment_DeadManWalking.webp"
+    },
+    {
+      "original": "imgi_37_SkilliconExo_augment_ThunderCutter.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_37_SkilliconExo_augment_ThunderCutter.webp"
+    },
+    {
+      "original": "imgi_44_SkilliconExo_augment_PartingGift.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_44_SkilliconExo_augment_PartingGift.webp"
+    },
+    {
+      "original": "imgi_52_SkilliconExo_augment_AcidDrop.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_52_SkilliconExo_augment_AcidDrop.webp"
+    },
+    {
+      "original": "imgi_93_repkit-aug-o-splat-shock.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_93_repkit-aug-o-splat-shock.webp"
+    },
+    {
+      "original": "imgi_94_repkit-aug-o-melee-damage.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_94_repkit-aug-o-melee-damage.webp"
+    },
+    {
+      "original": "imgi_95_repkit-aug-d-elemental-immunity-fire.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_95_repkit-aug-d-elemental-immunity-fire.webp"
+    },
+    {
+      "original": "imgi_97_repkit-aug-d-aoe-heal.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_97_repkit-aug-d-aoe-heal.webp"
+    },
+    {
+      "original": "imgi_98_repkit-aug-d-elemental-immunity-corrosive.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_98_repkit-aug-d-elemental-immunity-corrosive.webp"
+    },
+    {
+      "original": "imgi_99_repkit-aug-d-elemental-immunity-cryo.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\imgi_99_repkit-aug-d-elemental-immunity-cryo.webp"
+    },
+    {
+      "original": "repkit-aug-o-splat-shock.webp",
+      "path": "resources\\assets\\equipment\\item-augments\\repkit-aug-o-splat-shock.webp"
+    }
+  ],
+  "slots": [
+    {
+      "original": "class-mod.webp",
+      "path": "resources\\assets\\equipment\\slots\\class-mod.webp"
+    },
+    {
+      "original": "imgi_19_repkit.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_19_repkit.webp"
+    },
+    {
+      "original": "imgi_21_class-mod.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_21_class-mod.webp"
+    },
+    {
+      "original": "imgi_21_repkit.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_21_repkit.webp"
+    },
+    {
+      "original": "imgi_22_energy-shield.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_22_energy-shield.webp"
+    },
+    {
+      "original": "imgi_22_repkit.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_22_repkit.webp"
+    },
+    {
+      "original": "imgi_23_class-mod.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_23_class-mod.webp"
+    },
+    {
+      "original": "imgi_23_enhancement.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_23_enhancement.webp"
+    },
+    {
+      "original": "imgi_24_class-mod.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_24_class-mod.webp"
+    },
+    {
+      "original": "imgi_24_energy-shield.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_24_energy-shield.webp"
+    },
+    {
+      "original": "imgi_25_energy-shield.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_25_energy-shield.webp"
+    },
+    {
+      "original": "imgi_25_enhancement.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_25_enhancement.webp"
+    },
+    {
+      "original": "imgi_26_enhancement.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_26_enhancement.webp"
+    },
+    {
+      "original": "imgi_159_repkit.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_159_repkit.webp"
+    },
+    {
+      "original": "imgi_17_repkit.webp",
+      "path": "resources\\assets\\equipment\\slots\\imgi_17_repkit.webp"
+    }
+  ],
+  "rarity": [
+    {
+      "original": "imgi_111_passive-green-default.webp",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_111_passive-green-default.webp"
+    },
+    {
+      "original": "imgi_114_passive-green-default (1).webp",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_114_passive-green-default (1).webp"
+    },
+    {
+      "original": "imgi_114_passive-green-default.webp",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_114_passive-green-default.webp"
+    },
+    {
+      "original": "imgi_126_blue-arrow-down.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_126_blue-arrow-down.svg"
+    },
+    {
+      "original": "imgi_128_blue-arrow-down (1).svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_128_blue-arrow-down (1).svg"
+    },
+    {
+      "original": "imgi_128_blue-arrow-down.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_128_blue-arrow-down.svg"
+    },
+    {
+      "original": "imgi_131_blue-arrow-right.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_131_blue-arrow-right.svg"
+    },
+    {
+      "original": "imgi_133_blue-arrow-right (1).svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_133_blue-arrow-right (1).svg"
+    },
+    {
+      "original": "imgi_133_blue-arrow-right.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_133_blue-arrow-right.svg"
+    },
+    {
+      "original": "imgi_136_twitch-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_136_twitch-logo-gray.svg"
+    },
+    {
+      "original": "imgi_137_twitch-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_137_twitch-logo-gray.svg"
+    },
+    {
+      "original": "imgi_137_twitter-x-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_137_twitter-x-logo-gray.svg"
+    },
+    {
+      "original": "imgi_138_twitch-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_138_twitch-logo-gray.svg"
+    },
+    {
+      "original": "imgi_138_twitter-x-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_138_twitter-x-logo-gray.svg"
+    },
+    {
+      "original": "imgi_138_youtube-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_138_youtube-logo-gray.svg"
+    },
+    {
+      "original": "imgi_139_instagram-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_139_instagram-logo-gray.svg"
+    },
+    {
+      "original": "imgi_139_twitter-x-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_139_twitter-x-logo-gray.svg"
+    },
+    {
+      "original": "imgi_139_youtube-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_139_youtube-logo-gray.svg"
+    },
+    {
+      "original": "imgi_140_discord-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_140_discord-logo-gray.svg"
+    },
+    {
+      "original": "imgi_140_instagram-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_140_instagram-logo-gray.svg"
+    },
+    {
+      "original": "imgi_140_youtube-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_140_youtube-logo-gray.svg"
+    },
+    {
+      "original": "imgi_141_discord-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_141_discord-logo-gray.svg"
+    },
+    {
+      "original": "imgi_141_instagram-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_141_instagram-logo-gray.svg"
+    },
+    {
+      "original": "imgi_142_discord-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_142_discord-logo-gray.svg"
+    },
+    {
+      "original": "imgi_14_blue-protocol-logo (1).webp",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_14_blue-protocol-logo (1).webp"
+    },
+    {
+      "original": "imgi_14_blue-protocol-logo (2).webp",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_14_blue-protocol-logo (2).webp"
+    },
+    {
+      "original": "imgi_14_blue-protocol-logo.webp",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_14_blue-protocol-logo.webp"
+    },
+    {
+      "original": "legendary.webp",
+      "path": "resources\\assets\\equipment\\rarity\\legendary.webp"
+    },
+    {
+      "original": "imgi_134_passive-green-default.webp",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_134_passive-green-default.webp"
+    },
+    {
+      "original": "imgi_146_blue-arrow-down.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_146_blue-arrow-down.svg"
+    },
+    {
+      "original": "imgi_149_blue-arrow-right.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_149_blue-arrow-right.svg"
+    },
+    {
+      "original": "imgi_14_blue-protocol-logo.webp",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_14_blue-protocol-logo_1.webp"
+    },
+    {
+      "original": "imgi_154_twitter-x-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_154_twitter-x-logo-gray.svg"
+    },
+    {
+      "original": "imgi_155_twitch-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_155_twitch-logo-gray.svg"
+    },
+    {
+      "original": "imgi_156_instagram-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_156_instagram-logo-gray.svg"
+    },
+    {
+      "original": "imgi_157_youtube-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_157_youtube-logo-gray.svg"
+    },
+    {
+      "original": "imgi_158_discord-logo-gray.svg",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_158_discord-logo-gray.svg"
+    },
+    {
+      "original": "imgi_92_legendary.webp",
+      "path": "resources\\assets\\equipment\\rarity\\imgi_92_legendary.webp"
+    },
+    {
+      "original": "legendary.webp",
+      "path": "resources\\assets\\equipment\\rarity\\legendary_1.webp"
+    }
+  ],
+  "ui": [
+    {
+      "original": "5.jpg",
+      "path": "resources\\assets\\equipment\\ui\\5.jpg"
+    },
+    {
+      "original": "5.webp",
+      "path": "resources\\assets\\equipment\\ui\\5.webp"
+    },
+    {
+      "original": "66e9495b8877a9280419bb71_Moxxi.avif",
+      "path": "resources\\assets\\equipment\\ui\\66e9495b8877a9280419bb71_Moxxi.avif"
+    },
+    {
+      "original": "66e9495bd34d2791884f9232_Claptrap.avif",
+      "path": "resources\\assets\\equipment\\ui\\66e9495bd34d2791884f9232_Claptrap.avif"
+    },
+    {
+      "original": "Amon.webp",
+      "path": "resources\\assets\\equipment\\ui\\Amon.webp"
+    },
+    {
+      "original": "BL4-Vault-Hunter-Vex.jpg",
+      "path": "resources\\assets\\equipment\\ui\\BL4-Vault-Hunter-Vex.jpg"
+    },
+    {
+      "original": "comet_lGzETphs7L.png",
+      "path": "resources\\assets\\equipment\\ui\\comet_lGzETphs7L.png"
+    },
+    {
+      "original": "download.png",
+      "path": "resources\\assets\\equipment\\ui\\download.png"
+    },
+    {
+      "original": "harlowe-vault-hunter-transparent.avif",
+      "path": "resources\\assets\\equipment\\ui\\harlowe-vault-hunter-transparent.avif"
+    },
+    {
+      "original": "Harlowe.webp",
+      "path": "resources\\assets\\equipment\\ui\\Harlowe.webp"
+    },
+    {
+      "original": "hq720.jpg",
+      "path": "resources\\assets\\equipment\\ui\\hq720.jpg"
+    },
+    {
+      "original": "image (1).jpg",
+      "path": "resources\\assets\\equipment\\ui\\image (1).jpg"
+    },
+    {
+      "original": "image (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\image (1).webp"
+    },
+    {
+      "original": "image (10).jpg",
+      "path": "resources\\assets\\equipment\\ui\\image (10).jpg"
+    },
+    {
+      "original": "image (10).webp",
+      "path": "resources\\assets\\equipment\\ui\\image (10).webp"
+    },
+    {
+      "original": "image (16).webp",
+      "path": "resources\\assets\\equipment\\ui\\image (16).webp"
+    },
+    {
+      "original": "image.jpg",
+      "path": "resources\\assets\\equipment\\ui\\image.jpg"
+    },
+    {
+      "original": "image.webp",
+      "path": "resources\\assets\\equipment\\ui\\image.webp"
+    },
+    {
+      "original": "imgi_325_dead-ringer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_325_dead-ringer.webp"
+    },
+    {
+      "original": "imgi_35_dead-ringer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_35_dead-ringer.webp"
+    },
+    {
+      "original": "imgi_37_incarnate.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_37_incarnate.webp"
+    },
+    {
+      "original": "imgi_39_de2ad-ringer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_39_de2ad-ringer.webp"
+    },
+    {
+      "original": "imgi_40_ghast1-blaster.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_40_ghast1-blaster.webp"
+    },
+    {
+      "original": "imgi_41_skill-tree-ultimate-gradient.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_41_skill-tree-ultimate-gradient.svg"
+    },
+    {
+      "original": "imgi_42_phase-phamiliar.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_42_phase-phamiliar.webp"
+    },
+    {
+      "original": "imgi_43_i1ncarnate.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_43_i1ncarnate.webp"
+    },
+    {
+      "original": "imgi_44_d0ead-ringer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_44_d0ead-ringer.webp"
+    },
+    {
+      "original": "IMG_7627.jpg",
+      "path": "resources\\assets\\equipment\\ui\\IMG_7627.jpg"
+    },
+    {
+      "original": "IMG_7627.webp",
+      "path": "resources\\assets\\equipment\\ui\\IMG_7627.webp"
+    },
+    {
+      "original": "JCQPTbfxUGCDbJMb58sJxc-840-80.jpg.webp",
+      "path": "resources\\assets\\equipment\\ui\\JCQPTbfxUGCDbJMb58sJxc-840-80.jpg.webp"
+    },
+    {
+      "original": "maxresdefault.jpg",
+      "path": "resources\\assets\\equipment\\ui\\maxresdefault.jpg"
+    },
+    {
+      "original": "perks.jpg",
+      "path": "resources\\assets\\equipment\\ui\\perks.jpg"
+    },
+    {
+      "original": "sFz5hVCxj4ncRteRyAVVSi.jpg",
+      "path": "resources\\assets\\equipment\\ui\\sFz5hVCxj4ncRteRyAVVSi.jpg"
+    },
+    {
+      "original": "Skills_DarkSiren_0.webp",
+      "path": "resources\\assets\\equipment\\ui\\Skills_DarkSiren_0.webp"
+    },
+    {
+      "original": "Skills_ExoSoldier_0.webp",
+      "path": "resources\\assets\\equipment\\ui\\Skills_ExoSoldier_0.webp"
+    },
+    {
+      "original": "Skills_Gravitar_0.webp",
+      "path": "resources\\assets\\equipment\\ui\\Skills_Gravitar_0.webp"
+    },
+    {
+      "original": "accuracy.webp",
+      "path": "resources\\assets\\equipment\\ui\\accuracy.webp"
+    },
+    {
+      "original": "cooldown.webp",
+      "path": "resources\\assets\\equipment\\ui\\cooldown.webp"
+    },
+    {
+      "original": "corrosive.webp",
+      "path": "resources\\assets\\equipment\\ui\\corrosive.webp"
+    },
+    {
+      "original": "critical-damage.webp",
+      "path": "resources\\assets\\equipment\\ui\\critical-damage.webp"
+    },
+    {
+      "original": "damage.webp",
+      "path": "resources\\assets\\equipment\\ui\\damage.webp"
+    },
+    {
+      "original": "download (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (1).svg"
+    },
+    {
+      "original": "download (2).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (2).svg"
+    },
+    {
+      "original": "download (3).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (3).svg"
+    },
+    {
+      "original": "download (4).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (4).svg"
+    },
+    {
+      "original": "download.svg",
+      "path": "resources\\assets\\equipment\\ui\\download.svg"
+    },
+    {
+      "original": "fire-rate.webp",
+      "path": "resources\\assets\\equipment\\ui\\fire-rate.webp"
+    },
+    {
+      "original": "heal-over-time.webp",
+      "path": "resources\\assets\\equipment\\ui\\heal-over-time.webp"
+    },
+    {
+      "original": "heal.webp",
+      "path": "resources\\assets\\equipment\\ui\\heal.webp"
+    },
+    {
+      "original": "imgi_100_icong1 (1).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_100_icong1 (1).png"
+    },
+    {
+      "original": "imgi_100_icong1.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_100_icong1.png"
+    },
+    {
+      "original": "imgi_104_bl4-planner.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_104_bl4-planner.webp"
+    },
+    {
+      "original": "imgi_105_bl4-maxroll-builds.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_105_bl4-maxroll-builds.webp"
+    },
+    {
+      "original": "imgi_106_bl4-community-builds.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_106_bl4-community-builds.webp"
+    },
+    {
+      "original": "imgi_106_bl4-planner (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_106_bl4-planner (1).webp"
+    },
+    {
+      "original": "imgi_106_bl4-planner.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_106_bl4-planner.webp"
+    },
+    {
+      "original": "imgi_107_bl4-maxroll-builds (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_107_bl4-maxroll-builds (1).webp"
+    },
+    {
+      "original": "imgi_107_bl4-maxroll-builds.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_107_bl4-maxroll-builds.webp"
+    },
+    {
+      "original": "imgi_107_planner-header.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_107_planner-header.webp"
+    },
+    {
+      "original": "imgi_108_bl4-community-builds (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_108_bl4-community-builds (1).webp"
+    },
+    {
+      "original": "imgi_108_bl4-community-builds.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_108_bl4-community-builds.webp"
+    },
+    {
+      "original": "imgi_108_default-selected.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_108_default-selected.webp"
+    },
+    {
+      "original": "imgi_109_planner-header (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_109_planner-header (1).webp"
+    },
+    {
+      "original": "imgi_109_planner-header.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_109_planner-header.webp"
+    },
+    {
+      "original": "imgi_10_d2logo (1).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_10_d2logo (1).png"
+    },
+    {
+      "original": "imgi_10_d2logo (2).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_10_d2logo (2).png"
+    },
+    {
+      "original": "imgi_10_d2logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_10_d2logo.png"
+    },
+    {
+      "original": "imgi_110_capstone-default.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_110_capstone-default.webp"
+    },
+    {
+      "original": "imgi_110_default-selected (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_110_default-selected (1).webp"
+    },
+    {
+      "original": "imgi_110_default-selected.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_110_default-selected.webp"
+    },
+    {
+      "original": "imgi_112_capstone-default (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_112_capstone-default (1).webp"
+    },
+    {
+      "original": "imgi_112_capstone-default.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_112_capstone-default.webp"
+    },
+    {
+      "original": "imgi_112_passive-default.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_112_passive-default.webp"
+    },
+    {
+      "original": "imgi_113_passive-default (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_113_passive-default (1).webp"
+    },
+    {
+      "original": "imgi_113_passive-default.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_113_passive-default.webp"
+    },
+    {
+      "original": "imgi_114_maxroll-mark-icon.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_114_maxroll-mark-icon.svg"
+    },
+    {
+      "original": "imgi_115_chevron-right.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_115_chevron-right.svg"
+    },
+    {
+      "original": "imgi_115_poe2-pattern.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_115_poe2-pattern.webp"
+    },
+    {
+      "original": "imgi_116_home.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_116_home.svg"
+    },
+    {
+      "original": "imgi_116_maxroll-mark-icon (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_116_maxroll-mark-icon (1).svg"
+    },
+    {
+      "original": "imgi_116_maxroll-mark-icon.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_116_maxroll-mark-icon.svg"
+    },
+    {
+      "original": "imgi_117_chevron-right (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_117_chevron-right (1).svg"
+    },
+    {
+      "original": "imgi_117_chevron-right.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_117_chevron-right.svg"
+    },
+    {
+      "original": "imgi_117_games.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_117_games.svg"
+    },
+    {
+      "original": "imgi_118_home (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_118_home (1).svg"
+    },
+    {
+      "original": "imgi_118_home.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_118_home.svg"
+    },
+    {
+      "original": "imgi_118_more-circle.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_118_more-circle.svg"
+    },
+    {
+      "original": "imgi_119_games (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_119_games (1).svg"
+    },
+    {
+      "original": "imgi_119_games.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_119_games.svg"
+    },
+    {
+      "original": "imgi_119_marketplace.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_119_marketplace.webp"
+    },
+    {
+      "original": "imgi_11_la-logo (1).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_11_la-logo (1).png"
+    },
+    {
+      "original": "imgi_11_la-logo (2).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_11_la-logo (2).png"
+    },
+    {
+      "original": "imgi_11_la-logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_11_la-logo.png"
+    },
+    {
+      "original": "imgi_120_gift.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_120_gift.webp"
+    },
+    {
+      "original": "imgi_120_more-circle (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_120_more-circle (1).svg"
+    },
+    {
+      "original": "imgi_120_more-circle.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_120_more-circle.svg"
+    },
+    {
+      "original": "imgi_121_marketplace (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_121_marketplace (1).webp"
+    },
+    {
+      "original": "imgi_121_marketplace.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_121_marketplace.webp"
+    },
+    {
+      "original": "imgi_121_user.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_121_user.webp"
+    },
+    {
+      "original": "imgi_122_gift (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_122_gift (1).webp"
+    },
+    {
+      "original": "imgi_122_gift.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_122_gift.webp"
+    },
+    {
+      "original": "imgi_122_message.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_122_message.webp"
+    },
+    {
+      "original": "imgi_123_maxroll-full-logo-icon.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_123_maxroll-full-logo-icon.svg"
+    },
+    {
+      "original": "imgi_123_user (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_123_user (1).webp"
+    },
+    {
+      "original": "imgi_123_user.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_123_user.webp"
+    },
+    {
+      "original": "imgi_124_hamburger-menu.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_124_hamburger-menu.svg"
+    },
+    {
+      "original": "imgi_124_message (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_124_message (1).webp"
+    },
+    {
+      "original": "imgi_124_message.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_124_message.webp"
+    },
+    {
+      "original": "imgi_125_maxroll-full-logo-icon (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_125_maxroll-full-logo-icon (1).svg"
+    },
+    {
+      "original": "imgi_125_maxroll-full-logo-icon.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_125_maxroll-full-logo-icon.svg"
+    },
+    {
+      "original": "imgi_126_hamburger-menu (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_126_hamburger-menu (1).svg"
+    },
+    {
+      "original": "imgi_126_hamburger-menu.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_126_hamburger-menu.svg"
+    },
+    {
+      "original": "imgi_127_search.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_127_search.webp"
+    },
+    {
+      "original": "imgi_128_pin.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_128_pin.webp"
+    },
+    {
+      "original": "imgi_129_search (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_129_search (1).webp"
+    },
+    {
+      "original": "imgi_129_search.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_129_search.webp"
+    },
+    {
+      "original": "imgi_129_starforge-logo.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_129_starforge-logo.svg"
+    },
+    {
+      "original": "imgi_12_mhw-icon (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_12_mhw-icon (1).webp"
+    },
+    {
+      "original": "imgi_12_mhw-icon (2).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_12_mhw-icon (2).webp"
+    },
+    {
+      "original": "imgi_12_mhw-icon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_12_mhw-icon.webp"
+    },
+    {
+      "original": "imgi_130_pin (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_130_pin (1).webp"
+    },
+    {
+      "original": "imgi_130_pin.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_130_pin.webp"
+    },
+    {
+      "original": "imgi_130_secretlab-logo.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_130_secretlab-logo.svg"
+    },
+    {
+      "original": "imgi_131_starforge-logo (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_131_starforge-logo (1).svg"
+    },
+    {
+      "original": "imgi_131_starforge-logo.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_131_starforge-logo.svg"
+    },
+    {
+      "original": "imgi_132_secretlab-logo (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_132_secretlab-logo (1).svg"
+    },
+    {
+      "original": "imgi_132_secretlab-logo.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_132_secretlab-logo.svg"
+    },
+    {
+      "original": "imgi_132_warning.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_132_warning.svg"
+    },
+    {
+      "original": "imgi_133_expand.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_133_expand.svg"
+    },
+    {
+      "original": "imgi_134_skill-background.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_134_skill-background.webp"
+    },
+    {
+      "original": "imgi_134_warning (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_134_warning (1).svg"
+    },
+    {
+      "original": "imgi_134_warning.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_134_warning.svg"
+    },
+    {
+      "original": "imgi_135_expand.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_135_expand.svg"
+    },
+    {
+      "original": "imgi_135_skill-background.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_135_skill-background.webp"
+    },
+    {
+      "original": "imgi_136_skill-background.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_136_skill-background.webp"
+    },
+    {
+      "original": "imgi_13_ern-icon-rounded (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_13_ern-icon-rounded (1).webp"
+    },
+    {
+      "original": "imgi_13_ern-icon-rounded (2).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_13_ern-icon-rounded (2).webp"
+    },
+    {
+      "original": "imgi_13_ern-icon-rounded.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_13_ern-icon-rounded.webp"
+    },
+    {
+      "original": "imgi_142_PlayerInfoIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_142_PlayerInfoIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_143_PlayerUploadIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_143_PlayerUploadIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_144_PlayerDeleteIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_144_PlayerDeleteIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_144_PlayerInfoIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_144_PlayerInfoIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_145_PlayerCancelSegmentIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_145_PlayerCancelSegmentIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_145_PlayerUploadIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_145_PlayerUploadIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_146_PlayerDeleteIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_146_PlayerDeleteIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_146_PlayerStartIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_146_PlayerStartIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_147_PlayerCancelSegmentIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_147_PlayerCancelSegmentIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_148_PlayerStartIconSponsorBlocker.jpeg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_148_PlayerStartIconSponsorBlocker.jpeg"
+    },
+    {
+      "original": "imgi_15_news (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_15_news (1).webp"
+    },
+    {
+      "original": "imgi_15_news (2).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_15_news (2).webp"
+    },
+    {
+      "original": "imgi_15_news.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_15_news.webp"
+    },
+    {
+      "original": "imgi_16_hell-clock-logo (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_16_hell-clock-logo (1).webp"
+    },
+    {
+      "original": "imgi_16_hell-clock-logo (2).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_16_hell-clock-logo (2).webp"
+    },
+    {
+      "original": "imgi_16_hell-clock-logo.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_16_hell-clock-logo.webp"
+    },
+    {
+      "original": "imgi_17_amon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_17_amon.webp"
+    },
+    {
+      "original": "imgi_17_rafa.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_17_rafa.webp"
+    },
+    {
+      "original": "imgi_17_vex.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_17_vex.webp"
+    },
+    {
+      "original": "imgi_180_default.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_180_default.png"
+    },
+    {
+      "original": "imgi_181_tN-R0Q7JlHqtBVia-R8tSFS-oKrn-9sCzluNsrfh9DBJpa3OV3aReRQQ2_hVQlvPSAnKLQjK=s68-c-k-c0x00ffffff-no-rj.jpg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_181_tN-R0Q7JlHqtBVia-R8tSFS-oKrn-9sCzluNsrfh9DBJpa3OV3aReRQQ2_hVQlvPSAnKLQjK=s68-c-k-c0x00ffffff-no-rj.jpg"
+    },
+    {
+      "original": "imgi_182_default.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_182_default.png"
+    },
+    {
+      "original": "imgi_182_sddefault.jpg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_182_sddefault.jpg"
+    },
+    {
+      "original": "imgi_183_b4f7JW5bP0aI6_ZdZqVBh6ZBXvVdkMGH--77nVXwcD6qhMUb0uRxYXyJKJptCXTSQ8Kl0lAZmfo=s68-c-k-c0x00ffffff-no-rj.jpg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_183_b4f7JW5bP0aI6_ZdZqVBh6ZBXvVdkMGH--77nVXwcD6qhMUb0uRxYXyJKJptCXTSQ8Kl0lAZmfo=s68-c-k-c0x00ffffff-no-rj.jpg"
+    },
+    {
+      "original": "imgi_184_default.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_184_default.png"
+    },
+    {
+      "original": "imgi_184_sddefault.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_184_sddefault.webp"
+    },
+    {
+      "original": "imgi_186_default.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_186_default.png"
+    },
+    {
+      "original": "imgi_1_poe-2-icon (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_1_poe-2-icon (1).webp"
+    },
+    {
+      "original": "imgi_1_poe-2-icon (2).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_1_poe-2-icon (2).webp"
+    },
+    {
+      "original": "imgi_1_poe-2-icon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_1_poe-2-icon.webp"
+    },
+    {
+      "original": "imgi_24_goojfc.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_24_goojfc.webp"
+    },
+    {
+      "original": "imgi_25_action-fist.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_25_action-fist.webp"
+    },
+    {
+      "original": "imgi_26_god-killer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_26_god-killer.webp"
+    },
+    {
+      "original": "imgi_26_heating-up.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_26_heating-up.webp"
+    },
+    {
+      "original": "imgi_27_gadget-ahoy.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_27_gadget-ahoy.webp"
+    },
+    {
+      "original": "imgi_27_high-caliber.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_27_high-caliber.webp"
+    },
+    {
+      "original": "imgi_27_Onslaught.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_27_Onslaught.webp"
+    },
+    {
+      "original": "imgi_28_get-throwin.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_28_get-throwin.webp"
+    },
+    {
+      "original": "imgi_28_PhaseFamiliar.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_28_PhaseFamiliar.webp"
+    },
+    {
+      "original": "imgi_28_Warforge.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_28_Warforge.webp"
+    },
+    {
+      "original": "imgi_29_PeacebreakerCannons.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_29_PeacebreakerCannons.webp"
+    },
+    {
+      "original": "imgi_29_PhaseAvatar.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_29_PhaseAvatar.webp"
+    },
+    {
+      "original": "imgi_29_Scourge.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_29_Scourge.webp"
+    },
+    {
+      "original": "imgi_2_d4logo (1).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_2_d4logo (1).png"
+    },
+    {
+      "original": "imgi_2_d4logo (2).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_2_d4logo (2).png"
+    },
+    {
+      "original": "imgi_2_d4logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_2_d4logo.png"
+    },
+    {
+      "original": "imgi_30_ArcKnives.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_30_ArcKnives.webp"
+    },
+    {
+      "original": "imgi_30_DeadRinger.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_30_DeadRinger.webp"
+    },
+    {
+      "original": "imgi_30_trait.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_30_trait.webp"
+    },
+    {
+      "original": "imgi_31_ApophisLance.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_31_ApophisLance.webp"
+    },
+    {
+      "original": "imgi_31_SkilliconPaladin_Skill_Onslaught.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_31_SkilliconPaladin_Skill_Onslaught.webp"
+    },
+    {
+      "original": "imgi_31_trait.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_31_trait.webp"
+    },
+    {
+      "original": "imgi_32_SkilliconSiren_skill_DeadRinger.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_32_SkilliconSiren_skill_DeadRinger.webp"
+    },
+    {
+      "original": "imgi_32_trait.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_32_trait.webp"
+    },
+    {
+      "original": "imgi_33_SkilliconExo_skill_PeacebreakerCannons.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_33_SkilliconExo_skill_PeacebreakerCannons.webp"
+    },
+    {
+      "original": "imgi_33_SkilliconPaladin_Capstone_ThunderousVeil.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_33_SkilliconPaladin_Capstone_ThunderousVeil.webp"
+    },
+    {
+      "original": "imgi_34_ico_passive_paladin_cast_iron.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_34_ico_passive_paladin_cast_iron.webp"
+    },
+    {
+      "original": "imgi_34_ico_passive_siren_guns_and_needles.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_34_ico_passive_siren_guns_and_needles.webp"
+    },
+    {
+      "original": "imgi_35_ico_passive_exo_handshake_deal.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_35_ico_passive_exo_handshake_deal.webp"
+    },
+    {
+      "original": "imgi_35_ico_passive_paladin_building_storm.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_35_ico_passive_paladin_building_storm.webp"
+    },
+    {
+      "original": "imgi_35_ico_passive_siren_volatile_essence.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_35_ico_passive_siren_volatile_essence.webp"
+    },
+    {
+      "original": "imgi_36_ico_passive_exo_burn_the_midnight_oil.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_36_ico_passive_exo_burn_the_midnight_oil.webp"
+    },
+    {
+      "original": "imgi_36_ico_passive_siren_draining_attunement.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_36_ico_passive_siren_draining_attunement.webp"
+    },
+    {
+      "original": "imgi_37_ico_passive_exo_move_the_needle.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_37_ico_passive_exo_move_the_needle.webp"
+    },
+    {
+      "original": "imgi_37_ico_passive_paladin_rapid_reload.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_37_ico_passive_paladin_rapid_reload.webp"
+    },
+    {
+      "original": "imgi_37_ico_passive_siren_grave_sights.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_37_ico_passive_siren_grave_sights.webp"
+    },
+    {
+      "original": "imgi_38_ico_passive_exo_trama.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_38_ico_passive_exo_trama.webp"
+    },
+    {
+      "original": "imgi_38_ico_passive_paladin_destruction_engine.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_38_ico_passive_paladin_destruction_engine.webp"
+    },
+    {
+      "original": "imgi_38_ico_passive_siren_stimpack.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_38_ico_passive_siren_stimpack.webp"
+    },
+    {
+      "original": "imgi_3_poe-logo (1).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_3_poe-logo (1).png"
+    },
+    {
+      "original": "imgi_3_poe-logo (2).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_3_poe-logo (2).png"
+    },
+    {
+      "original": "imgi_3_poe-logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_3_poe-logo.png"
+    },
+    {
+      "original": "imgi_40_ico_passive_exo_stockpile.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_40_ico_passive_exo_stockpile.webp"
+    },
+    {
+      "original": "imgi_40_ico_passive_paladin_tempered_flame.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_40_ico_passive_paladin_tempered_flame.webp"
+    },
+    {
+      "original": "imgi_40_ico_passive_siren_bleed.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_40_ico_passive_siren_bleed.webp"
+    },
+    {
+      "original": "imgi_42_ico_passive_exo_doorbuster.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_42_ico_passive_exo_doorbuster.webp"
+    },
+    {
+      "original": "imgi_42_ico_passive_paladin_bolt_action.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_42_ico_passive_paladin_bolt_action.webp"
+    },
+    {
+      "original": "imgi_43_ico_passive_exo_saldar.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_43_ico_passive_exo_saldar.webp"
+    },
+    {
+      "original": "imgi_43_ico_passive_paladin_excitable.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_43_ico_passive_paladin_excitable.webp"
+    },
+    {
+      "original": "imgi_43_ico_passive_siren_phase_sync.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_43_ico_passive_siren_phase_sync.webp"
+    },
+    {
+      "original": "imgi_44_ico_passive_exo_in_the_zone.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_44_ico_passive_exo_in_the_zone.webp"
+    },
+    {
+      "original": "imgi_44_ico_passive_paladin_twinned_armaments.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_44_ico_passive_paladin_twinned_armaments.webp"
+    },
+    {
+      "original": "imgi_44_ico_passive_siren_kinetic_influence.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_44_ico_passive_siren_kinetic_influence.webp"
+    },
+    {
+      "original": "imgi_45_ico_passive_exo_to_the_last.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_45_ico_passive_exo_to_the_last.webp"
+    },
+    {
+      "original": "imgi_45_ico_passive_paladin_locked_in.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_45_ico_passive_paladin_locked_in.webp"
+    },
+    {
+      "original": "imgi_45_ico_passive_siren_grave_power.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_45_ico_passive_siren_grave_power.webp"
+    },
+    {
+      "original": "imgi_46_ico_passive_exo_hard_sell.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_46_ico_passive_exo_hard_sell.webp"
+    },
+    {
+      "original": "imgi_46_ico_passive_paladin_heralds_call.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_46_ico_passive_paladin_heralds_call.webp"
+    },
+    {
+      "original": "imgi_46_ico_passive_siren_target_prescience.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_46_ico_passive_siren_target_prescience.webp"
+    },
+    {
+      "original": "imgi_47_ico_passive_exo_bottom_line.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_47_ico_passive_exo_bottom_line.webp"
+    },
+    {
+      "original": "imgi_47_ico_passive_paladin_tempered_ice.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_47_ico_passive_paladin_tempered_ice.webp"
+    },
+    {
+      "original": "imgi_47_ico_passive_siren_radiating_attunement.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_47_ico_passive_siren_radiating_attunement.webp"
+    },
+    {
+      "original": "imgi_49_ico_passive_paladin_detonation_station.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_49_ico_passive_paladin_detonation_station.webp"
+    },
+    {
+      "original": "imgi_49_ico_passive_siren_duality.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_49_ico_passive_siren_duality.webp"
+    },
+    {
+      "original": "imgi_4_le-logo (1).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_4_le-logo (1).png"
+    },
+    {
+      "original": "imgi_4_le-logo (2).png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_4_le-logo (2).png"
+    },
+    {
+      "original": "imgi_4_le-logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_4_le-logo.png"
+    },
+    {
+      "original": "imgi_50_ico_passive_exo_out_the_door.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_50_ico_passive_exo_out_the_door.webp"
+    },
+    {
+      "original": "imgi_50_ico_passive_siren_radioactive_resonance.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_50_ico_passive_siren_radioactive_resonance.webp"
+    },
+    {
+      "original": "imgi_51_ico_passive_exo_shifting_focus.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_51_ico_passive_exo_shifting_focus.webp"
+    },
+    {
+      "original": "imgi_51_ico_passive_paladin_engineering.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_51_ico_passive_paladin_engineering.webp"
+    },
+    {
+      "original": "imgi_51_ico_passive_siren_refreshing_waters.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_51_ico_passive_siren_refreshing_waters.webp"
+    },
+    {
+      "original": "imgi_52_ico_passive_exo_blowout.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_52_ico_passive_exo_blowout.webp"
+    },
+    {
+      "original": "imgi_52_ico_passive_paladin_annihilation.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_52_ico_passive_paladin_annihilation.webp"
+    },
+    {
+      "original": "imgi_52_ico_passive_siren_spirit_cooling.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_52_ico_passive_siren_spirit_cooling.webp"
+    },
+    {
+      "original": "imgi_53_ico_passive_paladin_ordained_hammer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_53_ico_passive_paladin_ordained_hammer.webp"
+    },
+    {
+      "original": "imgi_53_ico_passive_siren_radiating_influence.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_53_ico_passive_siren_radiating_influence.webp"
+    },
+    {
+      "original": "imgi_53_SkilliconExo_capstone_HuracanEspecial.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_53_SkilliconExo_capstone_HuracanEspecial.webp"
+    },
+    {
+      "original": "imgi_54_ico_passive_exo_extra_mile.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_54_ico_passive_exo_extra_mile.webp"
+    },
+    {
+      "original": "imgi_54_SkilliconPaladin_Capstone_BoomingBlows.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_54_SkilliconPaladin_Capstone_BoomingBlows.webp"
+    },
+    {
+      "original": "imgi_54_SkilliconSiren_Capstone_Desecration.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_54_SkilliconSiren_Capstone_Desecration.webp"
+    },
+    {
+      "original": "imgi_55_ico_passive_paladin_escalation.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_55_ico_passive_paladin_escalation.webp"
+    },
+    {
+      "original": "imgi_55_ico_passive_siren_wombo_combo.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_55_ico_passive_siren_wombo_combo.webp"
+    },
+    {
+      "original": "imgi_56_ico_passive_exo_blowout_sale.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_56_ico_passive_exo_blowout_sale.webp"
+    },
+    {
+      "original": "imgi_57_ico_passive_exo_max_value.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_57_ico_passive_exo_max_value.webp"
+    },
+    {
+      "original": "imgi_57_ico_passive_paladin_tempered_lightning.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_57_ico_passive_paladin_tempered_lightning.webp"
+    },
+    {
+      "original": "imgi_57_ico_passive_siren_keen_mind.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_57_ico_passive_siren_keen_mind.webp"
+    },
+    {
+      "original": "imgi_58_ico_passive_exo_sinergia.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_58_ico_passive_exo_sinergia.webp"
+    },
+    {
+      "original": "imgi_58_ico_passive_paladin_iron_dome.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_58_ico_passive_paladin_iron_dome.webp"
+    },
+    {
+      "original": "imgi_58_ico_passive_siren_phase_pocket.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_58_ico_passive_siren_phase_pocket.webp"
+    },
+    {
+      "original": "imgi_59_ico_passive_exo_pull_out_all_the_stops.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_59_ico_passive_exo_pull_out_all_the_stops.webp"
+    },
+    {
+      "original": "imgi_59_ico_passive_paladin_lightning_rod.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_59_ico_passive_paladin_lightning_rod.webp"
+    },
+    {
+      "original": "imgi_59_ico_passive_siren_extra.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_59_ico_passive_siren_extra.webp"
+    },
+    {
+      "original": "imgi_60_ico_passive_siren_grave_elements.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_60_ico_passive_siren_grave_elements.webp"
+    },
+    {
+      "original": "imgi_60_SkilliconExo_capstone_InfernoProtocol.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_60_SkilliconExo_capstone_InfernoProtocol.webp"
+    },
+    {
+      "original": "imgi_61_ico_passive_exo_double_dip.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_61_ico_passive_exo_double_dip.webp"
+    },
+    {
+      "original": "imgi_61_SkilliconPaladin_Capstone_StormShatter.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_61_SkilliconPaladin_Capstone_StormShatter.webp"
+    },
+    {
+      "original": "imgi_61_SkilliconSiren_Capstone_VibeCheck.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_61_SkilliconSiren_Capstone_VibeCheck.webp"
+    },
+    {
+      "original": "imgi_62_ico_passive_exo_cant_stop_me_now.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_62_ico_passive_exo_cant_stop_me_now.webp"
+    },
+    {
+      "original": "imgi_62_ico_passive_siren_spirited_away.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_62_ico_passive_siren_spirited_away.webp"
+    },
+    {
+      "original": "imgi_63_ico_passive_paladin_cryogenic_impulse.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_63_ico_passive_paladin_cryogenic_impulse.webp"
+    },
+    {
+      "original": "imgi_63_ico_passive_siren_grave_vitality.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_63_ico_passive_siren_grave_vitality.webp"
+    },
+    {
+      "original": "imgi_64_ico_passive_exo_empuje.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_64_ico_passive_exo_empuje.webp"
+    },
+    {
+      "original": "imgi_65_ico_passive_exo_bright_futures.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_65_ico_passive_exo_bright_futures.webp"
+    },
+    {
+      "original": "imgi_65_ico_passive_paladin_raging_inferno.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_65_ico_passive_paladin_raging_inferno.webp"
+    },
+    {
+      "original": "imgi_65_ico_passive_siren_enlightenment.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_65_ico_passive_siren_enlightenment.webp"
+    },
+    {
+      "original": "imgi_66_ico_passive_exo_go_viral.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_66_ico_passive_exo_go_viral.webp"
+    },
+    {
+      "original": "imgi_66_ico_passive_paladin_brightburn.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_66_ico_passive_paladin_brightburn.webp"
+    },
+    {
+      "original": "imgi_66_ico_passive_siren_phase_extension.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_66_ico_passive_siren_phase_extension.webp"
+    },
+    {
+      "original": "imgi_67_ico_passive_paladin_heat_exchange_a.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_67_ico_passive_paladin_heat_exchange_a.webp"
+    },
+    {
+      "original": "imgi_67_ico_passive_siren_bloodshot.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_67_ico_passive_siren_bloodshot.webp"
+    },
+    {
+      "original": "imgi_67_SkilliconExo_capstone_ViolentFrenzy.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_67_SkilliconExo_capstone_ViolentFrenzy.webp"
+    },
+    {
+      "original": "imgi_68_ico_passive_exo_stick_with_it.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_68_ico_passive_exo_stick_with_it.webp"
+    },
+    {
+      "original": "imgi_68_ico_passive_paladin_elemental_font.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_68_ico_passive_paladin_elemental_font.webp"
+    },
+    {
+      "original": "imgi_68_ico_passive_siren_draining_essence.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_68_ico_passive_siren_draining_essence.webp"
+    },
+    {
+      "original": "imgi_69_ico_passive_paladin_pull_of_the_elements.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_69_ico_passive_paladin_pull_of_the_elements.webp"
+    },
+    {
+      "original": "imgi_69_now-with-caffeine.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_69_now-with-caffeine.webp"
+    },
+    {
+      "original": "imgi_69_SkilliconSiren_Capstone_HeartPiercer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_69_SkilliconSiren_Capstone_HeartPiercer.webp"
+    },
+    {
+      "original": "imgi_6_wow-retail-icon-v3 (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_6_wow-retail-icon-v3 (1).webp"
+    },
+    {
+      "original": "imgi_6_wow-retail-icon-v3 (2).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_6_wow-retail-icon-v3 (2).webp"
+    },
+    {
+      "original": "imgi_6_wow-retail-icon-v3.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_6_wow-retail-icon-v3.webp"
+    },
+    {
+      "original": "imgi_70_full-spectrum-arsenal.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_70_full-spectrum-arsenal.webp"
+    },
+    {
+      "original": "imgi_70_ico_passive_siren_blood_is_power.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_70_ico_passive_siren_blood_is_power.webp"
+    },
+    {
+      "original": "imgi_70_SkilliconPaladin_Capstone_Conflagarang.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_70_SkilliconPaladin_Capstone_Conflagarang.webp"
+    },
+    {
+      "original": "imgi_71_contamination.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_71_contamination.webp"
+    },
+    {
+      "original": "imgi_71_fragmentation-payload.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_71_fragmentation-payload.webp"
+    },
+    {
+      "original": "imgi_71_i-am-a-gun.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_71_i-am-a-gun.webp"
+    },
+    {
+      "original": "imgi_72_a-honed-mind.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_72_a-honed-mind.webp"
+    },
+    {
+      "original": "imgi_72_riddle-you-this.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_72_riddle-you-this.webp"
+    },
+    {
+      "original": "imgi_72_tripwire.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_72_tripwire.webp"
+    },
+    {
+      "original": "imgi_73_survivor.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_73_survivor.webp"
+    },
+    {
+      "original": "imgi_73_the-best-defense (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_73_the-best-defense (1).webp"
+    },
+    {
+      "original": "imgi_73_the-best-defense.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_73_the-best-defense.webp"
+    },
+    {
+      "original": "imgi_74_brute.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_74_brute.webp"
+    },
+    {
+      "original": "imgi_74_in-the-zone.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_74_in-the-zone.webp"
+    },
+    {
+      "original": "imgi_74_now-with-caffeine.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_74_now-with-caffeine.webp"
+    },
+    {
+      "original": "imgi_75_sharpshooter.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_75_sharpshooter.webp"
+    },
+    {
+      "original": "imgi_75_survivor (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_75_survivor (1).webp"
+    },
+    {
+      "original": "imgi_75_survivor.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_75_survivor.webp"
+    },
+    {
+      "original": "imgi_76_brute (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_76_brute (1).webp"
+    },
+    {
+      "original": "imgi_76_brute.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_76_brute.webp"
+    },
+    {
+      "original": "imgi_76_runner.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_76_runner.webp"
+    },
+    {
+      "original": "imgi_77_sharpshooter (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_77_sharpshooter (1).webp"
+    },
+    {
+      "original": "imgi_77_sharpshooter.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_77_sharpshooter.webp"
+    },
+    {
+      "original": "imgi_77_sturdy-stuff.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_77_sturdy-stuff.webp"
+    },
+    {
+      "original": "imgi_78_lead-or-alive.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_78_lead-or-alive.webp"
+    },
+    {
+      "original": "imgi_78_runner (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_78_runner (1).webp"
+    },
+    {
+      "original": "imgi_78_runner.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_78_runner.webp"
+    },
+    {
+      "original": "imgi_79_down-but-not-out.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_79_down-but-not-out.webp"
+    },
+    {
+      "original": "imgi_79_sturdy-stuff (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_79_sturdy-stuff (1).webp"
+    },
+    {
+      "original": "imgi_79_sturdy-stuff.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_79_sturdy-stuff.webp"
+    },
+    {
+      "original": "imgi_7_throne-and-liberty-icon (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_7_throne-and-liberty-icon (1).webp"
+    },
+    {
+      "original": "imgi_7_throne-and-liberty-icon (2).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_7_throne-and-liberty-icon (2).webp"
+    },
+    {
+      "original": "imgi_7_throne-and-liberty-icon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_7_throne-and-liberty-icon.webp"
+    },
+    {
+      "original": "imgi_80_bear-arms.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_80_bear-arms.webp"
+    },
+    {
+      "original": "imgi_80_lead-or-alive (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_80_lead-or-alive (1).webp"
+    },
+    {
+      "original": "imgi_80_lead-or-alive.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_80_lead-or-alive.webp"
+    },
+    {
+      "original": "imgi_81_bullets-are-scared-of-me.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_81_bullets-are-scared-of-me.webp"
+    },
+    {
+      "original": "imgi_81_down-but-not-out (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_81_down-but-not-out (1).webp"
+    },
+    {
+      "original": "imgi_81_down-but-not-out.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_81_down-but-not-out.webp"
+    },
+    {
+      "original": "imgi_82_bear-arms (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_82_bear-arms (1).webp"
+    },
+    {
+      "original": "imgi_82_bear-arms.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_82_bear-arms.webp"
+    },
+    {
+      "original": "imgi_82_gadgeteer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_82_gadgeteer.webp"
+    },
+    {
+      "original": "imgi_83_bullets-are-scared-of-me (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_83_bullets-are-scared-of-me (1).webp"
+    },
+    {
+      "original": "imgi_83_bullets-are-scared-of-me.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_83_bullets-are-scared-of-me.webp"
+    },
+    {
+      "original": "imgi_83_cqc.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_83_cqc.webp"
+    },
+    {
+      "original": "imgi_84_gadgeteer (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_84_gadgeteer (1).webp"
+    },
+    {
+      "original": "imgi_84_gadgeteer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_84_gadgeteer.webp"
+    },
+    {
+      "original": "imgi_84_killer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_84_killer.webp"
+    },
+    {
+      "original": "imgi_85_cqc (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_85_cqc (1).webp"
+    },
+    {
+      "original": "imgi_85_cqc.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_85_cqc.webp"
+    },
+    {
+      "original": "imgi_85_in-the-zone.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_85_in-the-zone.webp"
+    },
+    {
+      "original": "imgi_86_daredevil.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_86_daredevil.webp"
+    },
+    {
+      "original": "imgi_86_killer (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_86_killer (1).webp"
+    },
+    {
+      "original": "imgi_86_killer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_86_killer.webp"
+    },
+    {
+      "original": "imgi_87_bullet-train.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_87_bullet-train.webp"
+    },
+    {
+      "original": "imgi_87_daredevil.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_87_daredevil.webp"
+    },
+    {
+      "original": "imgi_87_in-the-zone.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_87_in-the-zone.webp"
+    },
+    {
+      "original": "imgi_88_bullet-train.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_88_bullet-train.webp"
+    },
+    {
+      "original": "imgi_88_daredevil.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_88_daredevil.webp"
+    },
+    {
+      "original": "imgi_88_the-best-defense.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_88_the-best-defense.webp"
+    },
+    {
+      "original": "imgi_89_bullet-train.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_89_bullet-train.webp"
+    },
+    {
+      "original": "imgi_89_riddle-you-this.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_89_riddle-you-this.webp"
+    },
+    {
+      "original": "imgi_89_tripwire.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_89_tripwire.webp"
+    },
+    {
+      "original": "imgi_8_coe33-icon (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_8_coe33-icon (1).webp"
+    },
+    {
+      "original": "imgi_8_coe33-icon (2).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_8_coe33-icon (2).webp"
+    },
+    {
+      "original": "imgi_8_coe33-icon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_8_coe33-icon.webp"
+    },
+    {
+      "original": "imgi_90_contamination.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_90_contamination.webp"
+    },
+    {
+      "original": "imgi_90_riddle-you-this.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_90_riddle-you-this.webp"
+    },
+    {
+      "original": "imgi_90_tripwire.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_90_tripwire.webp"
+    },
+    {
+      "original": "imgi_91_contamination.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_91_contamination.webp"
+    },
+    {
+      "original": "imgi_91_one-shot-one-kill (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_91_one-shot-one-kill (1).webp"
+    },
+    {
+      "original": "imgi_91_one-shot-one-kill.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_91_one-shot-one-kill.webp"
+    },
+    {
+      "original": "imgi_92_groundbreaker (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_92_groundbreaker (1).webp"
+    },
+    {
+      "original": "imgi_92_groundbreaker.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_92_groundbreaker.webp"
+    },
+    {
+      "original": "imgi_92_one-shot-one-kill.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_92_one-shot-one-kill.webp"
+    },
+    {
+      "original": "imgi_93_compounding-afflictions.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_93_compounding-afflictions.webp"
+    },
+    {
+      "original": "imgi_93_full-spectrum-arsenal.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_93_full-spectrum-arsenal.webp"
+    },
+    {
+      "original": "imgi_93_now-with-caffeine.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_93_now-with-caffeine.webp"
+    },
+    {
+      "original": "imgi_94_compounding-afflictions.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_94_compounding-afflictions.webp"
+    },
+    {
+      "original": "imgi_94_groundbreaker.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_94_groundbreaker.webp"
+    },
+    {
+      "original": "imgi_94_i-am-a-gun.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_94_i-am-a-gun.webp"
+    },
+    {
+      "original": "imgi_95_full-spectrum-arsenal.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_95_full-spectrum-arsenal.webp"
+    },
+    {
+      "original": "imgi_95_i-am-a-gun.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_95_i-am-a-gun.webp"
+    },
+    {
+      "original": "imgi_95_overkill.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_95_overkill.webp"
+    },
+    {
+      "original": "imgi_96_a-honed-mind.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_96_a-honed-mind.webp"
+    },
+    {
+      "original": "imgi_96_compounding-afflictions.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_96_compounding-afflictions.webp"
+    },
+    {
+      "original": "imgi_96_fragmentation-payload.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_96_fragmentation-payload.webp"
+    },
+    {
+      "original": "imgi_97_fragmentation-payload.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_97_fragmentation-payload.webp"
+    },
+    {
+      "original": "imgi_97_overkill.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_97_overkill.webp"
+    },
+    {
+      "original": "imgi_98_a-honed-mind.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_98_a-honed-mind.webp"
+    },
+    {
+      "original": "imgi_98_icong1.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_98_icong1.png"
+    },
+    {
+      "original": "imgi_98_overkill.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_98_overkill.webp"
+    },
+    {
+      "original": "imgi_9_diablo-iii-logo (1).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_9_diablo-iii-logo (1).webp"
+    },
+    {
+      "original": "imgi_9_diablo-iii-logo (2).webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_9_diablo-iii-logo (2).webp"
+    },
+    {
+      "original": "imgi_9_diablo-iii-logo.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_9_diablo-iii-logo.webp"
+    },
+    {
+      "original": "magazine-size.webp",
+      "path": "resources\\assets\\equipment\\ui\\magazine-size.webp"
+    },
+    {
+      "original": "reload-speed.webp",
+      "path": "resources\\assets\\equipment\\ui\\reload-speed.webp"
+    },
+    {
+      "original": "skill-background.webp",
+      "path": "resources\\assets\\equipment\\ui\\skill-background.webp"
+    },
+    {
+      "original": "splash-radius.webp",
+      "path": "resources\\assets\\equipment\\ui\\splash-radius.webp"
+    },
+    {
+      "original": "trait.webp",
+      "path": "resources\\assets\\equipment\\ui\\trait.webp"
+    },
+    {
+      "original": "download (1).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (1)_1.svg"
+    },
+    {
+      "original": "download (10).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (10).svg"
+    },
+    {
+      "original": "download (11).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (11).svg"
+    },
+    {
+      "original": "download (12).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (12).svg"
+    },
+    {
+      "original": "download (2).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (2)_1.svg"
+    },
+    {
+      "original": "download (3).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (3)_1.svg"
+    },
+    {
+      "original": "download (4).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (4)_1.svg"
+    },
+    {
+      "original": "download (5).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (5).svg"
+    },
+    {
+      "original": "download (6).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (6).svg"
+    },
+    {
+      "original": "download (7).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (7).svg"
+    },
+    {
+      "original": "download (8).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (8).svg"
+    },
+    {
+      "original": "download (9).svg",
+      "path": "resources\\assets\\equipment\\ui\\download (9).svg"
+    },
+    {
+      "original": "download.svg",
+      "path": "resources\\assets\\equipment\\ui\\download_1.svg"
+    },
+    {
+      "original": "gadget-ahoy.webp",
+      "path": "resources\\assets\\equipment\\ui\\gadget-ahoy.webp"
+    },
+    {
+      "original": "imgi_10_d2logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_10_d2logo_1.png"
+    },
+    {
+      "original": "imgi_11_la-logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_11_la-logo_1.png"
+    },
+    {
+      "original": "imgi_126_bl4-planner.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_126_bl4-planner.webp"
+    },
+    {
+      "original": "imgi_127_bl4-maxroll-builds.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_127_bl4-maxroll-builds.webp"
+    },
+    {
+      "original": "imgi_128_bl4-community-builds.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_128_bl4-community-builds.webp"
+    },
+    {
+      "original": "imgi_129_planner-header.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_129_planner-header.webp"
+    },
+    {
+      "original": "imgi_12_mhw-icon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_12_mhw-icon_1.webp"
+    },
+    {
+      "original": "imgi_130_default-selected.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_130_default-selected.webp"
+    },
+    {
+      "original": "imgi_132_capstone-default.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_132_capstone-default.webp"
+    },
+    {
+      "original": "imgi_133_passive-default.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_133_passive-default.webp"
+    },
+    {
+      "original": "imgi_135_maxroll-mark-icon.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_135_maxroll-mark-icon.svg"
+    },
+    {
+      "original": "imgi_136_chevron-right.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_136_chevron-right.svg"
+    },
+    {
+      "original": "imgi_137_home.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_137_home.svg"
+    },
+    {
+      "original": "imgi_138_games.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_138_games.svg"
+    },
+    {
+      "original": "imgi_139_more-circle.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_139_more-circle.svg"
+    },
+    {
+      "original": "imgi_13_ern-icon-rounded.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_13_ern-icon-rounded_1.webp"
+    },
+    {
+      "original": "imgi_140_marketplace.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_140_marketplace.webp"
+    },
+    {
+      "original": "imgi_141_gift.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_141_gift.webp"
+    },
+    {
+      "original": "imgi_142_user.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_142_user.webp"
+    },
+    {
+      "original": "imgi_143_message.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_143_message.webp"
+    },
+    {
+      "original": "imgi_144_maxroll-full-logo-icon.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_144_maxroll-full-logo-icon.svg"
+    },
+    {
+      "original": "imgi_145_hamburger-menu.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_145_hamburger-menu.svg"
+    },
+    {
+      "original": "imgi_147_starforge-logo.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_147_starforge-logo.svg"
+    },
+    {
+      "original": "imgi_148_secretlab-logo.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_148_secretlab-logo.svg"
+    },
+    {
+      "original": "imgi_150_warning.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_150_warning.svg"
+    },
+    {
+      "original": "imgi_151_plus-icon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_151_plus-icon.webp"
+    },
+    {
+      "original": "imgi_152_edit-3.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_152_edit-3.svg"
+    },
+    {
+      "original": "imgi_153_skill-background.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_153_skill-background.webp"
+    },
+    {
+      "original": "imgi_15_rafa.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_15_rafa.webp"
+    },
+    {
+      "original": "imgi_160_clear.svg",
+      "path": "resources\\assets\\equipment\\ui\\imgi_160_clear.svg"
+    },
+    {
+      "original": "imgi_18_gadget-ahoy.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_18_gadget-ahoy.webp"
+    },
+    {
+      "original": "imgi_19_PeacebreakerCannons.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_19_PeacebreakerCannons.webp"
+    },
+    {
+      "original": "imgi_1_poe-2-icon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_1_poe-2-icon_1.webp"
+    },
+    {
+      "original": "imgi_20_ArcKnives.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_20_ArcKnives.webp"
+    },
+    {
+      "original": "imgi_21_ApophisLance.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_21_ApophisLance.webp"
+    },
+    {
+      "original": "imgi_22_trait.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_22_trait.webp"
+    },
+    {
+      "original": "imgi_23_SkilliconExo_skill_ApophisLance.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_23_SkilliconExo_skill_ApophisLance.webp"
+    },
+    {
+      "original": "imgi_24_ico_passive_exo_handshake_deal.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_24_ico_passive_exo_handshake_deal.webp"
+    },
+    {
+      "original": "imgi_25_ico_passive_exo_burn_the_midnight_oil.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_25_ico_passive_exo_burn_the_midnight_oil.webp"
+    },
+    {
+      "original": "imgi_26_ico_passive_exo_move_the_needle.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_26_ico_passive_exo_move_the_needle.webp"
+    },
+    {
+      "original": "imgi_27_ico_passive_exo_trama.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_27_ico_passive_exo_trama.webp"
+    },
+    {
+      "original": "imgi_29_ico_passive_exo_stockpile.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_29_ico_passive_exo_stockpile.webp"
+    },
+    {
+      "original": "imgi_2_d4logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_2_d4logo_1.png"
+    },
+    {
+      "original": "imgi_31_ico_passive_exo_doorbuster.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_31_ico_passive_exo_doorbuster.webp"
+    },
+    {
+      "original": "imgi_32_ico_passive_exo_saldar.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_32_ico_passive_exo_saldar.webp"
+    },
+    {
+      "original": "imgi_33_ico_passive_exo_in_the_zone.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_33_ico_passive_exo_in_the_zone.webp"
+    },
+    {
+      "original": "imgi_34_ico_passive_exo_to_the_last.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_34_ico_passive_exo_to_the_last.webp"
+    },
+    {
+      "original": "imgi_35_ico_passive_exo_hard_sell.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_35_ico_passive_exo_hard_sell.webp"
+    },
+    {
+      "original": "imgi_36_ico_passive_exo_bottom_line.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_36_ico_passive_exo_bottom_line.webp"
+    },
+    {
+      "original": "imgi_39_ico_passive_exo_out_the_door.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_39_ico_passive_exo_out_the_door.webp"
+    },
+    {
+      "original": "imgi_3_poe-logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_3_poe-logo_1.png"
+    },
+    {
+      "original": "imgi_40_ico_passive_exo_shifting_focus.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_40_ico_passive_exo_shifting_focus.webp"
+    },
+    {
+      "original": "imgi_41_ico_passive_exo_blowout.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_41_ico_passive_exo_blowout.webp"
+    },
+    {
+      "original": "imgi_42_SkilliconExo_capstone_HuracanEspecial.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_42_SkilliconExo_capstone_HuracanEspecial.webp"
+    },
+    {
+      "original": "imgi_43_ico_passive_exo_extra_mile.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_43_ico_passive_exo_extra_mile.webp"
+    },
+    {
+      "original": "imgi_45_ico_passive_exo_blowout_sale.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_45_ico_passive_exo_blowout_sale.webp"
+    },
+    {
+      "original": "imgi_46_ico_passive_exo_max_value.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_46_ico_passive_exo_max_value.webp"
+    },
+    {
+      "original": "imgi_47_ico_passive_exo_sinergia.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_47_ico_passive_exo_sinergia.webp"
+    },
+    {
+      "original": "imgi_48_ico_passive_exo_pull_out_all_the_stops.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_48_ico_passive_exo_pull_out_all_the_stops.webp"
+    },
+    {
+      "original": "imgi_49_SkilliconExo_capstone_InfernoProtocol.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_49_SkilliconExo_capstone_InfernoProtocol.webp"
+    },
+    {
+      "original": "imgi_4_le-logo.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_4_le-logo_1.png"
+    },
+    {
+      "original": "imgi_50_ico_passive_exo_double_dip.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_50_ico_passive_exo_double_dip.webp"
+    },
+    {
+      "original": "imgi_51_ico_passive_exo_cant_stop_me_now.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_51_ico_passive_exo_cant_stop_me_now.webp"
+    },
+    {
+      "original": "imgi_53_ico_passive_exo_empuje.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_53_ico_passive_exo_empuje.webp"
+    },
+    {
+      "original": "imgi_54_ico_passive_exo_bright_futures.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_54_ico_passive_exo_bright_futures.webp"
+    },
+    {
+      "original": "imgi_55_ico_passive_exo_go_viral.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_55_ico_passive_exo_go_viral.webp"
+    },
+    {
+      "original": "imgi_56_SkilliconExo_capstone_ViolentFrenzy.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_56_SkilliconExo_capstone_ViolentFrenzy.webp"
+    },
+    {
+      "original": "imgi_57_ico_passive_exo_stick_with_it.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_57_ico_passive_exo_stick_with_it.webp"
+    },
+    {
+      "original": "imgi_58_survivor.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_58_survivor.webp"
+    },
+    {
+      "original": "imgi_59_brute.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_59_brute.webp"
+    },
+    {
+      "original": "imgi_60_sharpshooter.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_60_sharpshooter.webp"
+    },
+    {
+      "original": "imgi_61_runner.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_61_runner.webp"
+    },
+    {
+      "original": "imgi_62_sturdy-stuff.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_62_sturdy-stuff.webp"
+    },
+    {
+      "original": "imgi_63_lead-or-alive.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_63_lead-or-alive.webp"
+    },
+    {
+      "original": "imgi_64_down-but-not-out.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_64_down-but-not-out.webp"
+    },
+    {
+      "original": "imgi_65_bear-arms.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_65_bear-arms.webp"
+    },
+    {
+      "original": "imgi_66_bullets-are-scared-of-me.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_66_bullets-are-scared-of-me.webp"
+    },
+    {
+      "original": "imgi_67_gadgeteer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_67_gadgeteer.webp"
+    },
+    {
+      "original": "imgi_68_cqc.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_68_cqc.webp"
+    },
+    {
+      "original": "imgi_69_killer.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_69_killer.webp"
+    },
+    {
+      "original": "imgi_6_wow-retail-icon-v3.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_6_wow-retail-icon-v3_1.webp"
+    },
+    {
+      "original": "imgi_70_in-the-zone.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_70_in-the-zone.webp"
+    },
+    {
+      "original": "imgi_71_daredevil.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_71_daredevil.webp"
+    },
+    {
+      "original": "imgi_72_bullet-train.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_72_bullet-train.webp"
+    },
+    {
+      "original": "imgi_73_the-best-defense.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_73_the-best-defense_1.webp"
+    },
+    {
+      "original": "imgi_74_tripwire.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_74_tripwire.webp"
+    },
+    {
+      "original": "imgi_75_riddle-you-this.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_75_riddle-you-this.webp"
+    },
+    {
+      "original": "imgi_76_contamination.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_76_contamination.webp"
+    },
+    {
+      "original": "imgi_77_one-shot-one-kill.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_77_one-shot-one-kill.webp"
+    },
+    {
+      "original": "imgi_78_now-with-caffeine.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_78_now-with-caffeine.webp"
+    },
+    {
+      "original": "imgi_79_groundbreaker.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_79_groundbreaker.webp"
+    },
+    {
+      "original": "imgi_7_throne-and-liberty-icon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_7_throne-and-liberty-icon_1.webp"
+    },
+    {
+      "original": "imgi_80_full-spectrum-arsenal.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_80_full-spectrum-arsenal.webp"
+    },
+    {
+      "original": "imgi_81_compounding-afflictions.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_81_compounding-afflictions.webp"
+    },
+    {
+      "original": "imgi_82_i-am-a-gun.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_82_i-am-a-gun.webp"
+    },
+    {
+      "original": "imgi_83_fragmentation-payload.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_83_fragmentation-payload.webp"
+    },
+    {
+      "original": "imgi_84_overkill.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_84_overkill.webp"
+    },
+    {
+      "original": "imgi_85_a-honed-mind.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_85_a-honed-mind.webp"
+    },
+    {
+      "original": "imgi_86_icong1.png",
+      "path": "resources\\assets\\equipment\\ui\\imgi_86_icong1.png"
+    },
+    {
+      "original": "imgi_88_heal.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_88_heal.webp"
+    },
+    {
+      "original": "imgi_89_stat-separator.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_89_stat-separator.webp"
+    },
+    {
+      "original": "imgi_8_coe33-icon.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_8_coe33-icon_1.webp"
+    },
+    {
+      "original": "imgi_90_heal-over-time.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_90_heal-over-time.webp"
+    },
+    {
+      "original": "imgi_91_cooldown.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_91_cooldown.webp"
+    },
+    {
+      "original": "imgi_9_diablo-iii-logo.webp",
+      "path": "resources\\assets\\equipment\\ui\\imgi_9_diablo-iii-logo_1.webp"
+    }
+  ]
+}
