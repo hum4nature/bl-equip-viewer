@@ -1,68 +1,98 @@
 /**
  * Equipment Component
  * Main equipment slots display and interaction
+ * Now uses centralized state manager for reactive updates
  */
 
 import { resolveEntity, getItemIcon, getRarityColor } from './utils.js';
 import { getAssetUrl } from './game-data.js';
+import { stateManager } from './state-manager.js';
 
 export class Equipment {
   constructor(containerId, gameData) {
     this.container = document.getElementById(containerId);
     this.gameData = gameData;
-    this.equipment = {
-      weapon1: null,
-      weapon2: null,
-      weapon3: null,
-      weapon4: null,
-      repkit: null,
-      ordnance: null,
-      'class-mod': null,
-      shield: null,
-      enhancement: null
-    };
-    this.editable = false;
     this.slotClickCallbacks = [];
+    
+    // Store gameData in state
+    stateManager.setState({ gameData });
+    
+    // Subscribe to state changes and re-render when equipment changes
+    this.unsubscribe = stateManager.subscribe((state) => {
+      // Re-render if equipment or editable state changed
+      if (state.equipment !== undefined || state.editable !== undefined) {
+        console.log('[Equipment] State changed, re-rendering');
+        this.render();
+      }
+    });
+    
+    // Set up event delegation on stable container
+    this.setupEventDelegation();
     
     this.render();
   }
   
+  setupEventDelegation() {
+    // Attach click handler to stable container for all slot clicks
+    this.container.addEventListener('click', (e) => {
+      // Find the closest slot element
+      const slotElement = e.target.closest('[data-slot-id]');
+      if (slotElement) {
+        const slotId = slotElement.dataset.slotId;
+        const state = stateManager.getState();
+        const item = state.equipment[slotId] || null;
+        
+        console.log('[Equipment] Slot clicked via delegation:', slotId, item);
+        this.triggerSlotClick(slotId, item);
+      }
+    });
+  }
+  
   render() {
+    const state = stateManager.getState();
+    const equipment = state.equipment || {};
+    const editable = state.editable || false;
+    
+    console.log('[Equipment] Rendering with state:', { equipment, editable });
+    
     this.container.innerHTML = '';
-    this.container.className = 'equipment' + (this.editable ? ' equipment--editable' : '');
+    this.container.className = 'equipment' + (editable ? ' equipment--editable' : '');
     
     // Weapons section
-    const weaponsSection = this.createWeaponsSection();
+    const weaponsSection = this.createWeaponsSection(equipment);
     this.container.appendChild(weaponsSection);
     
     // Support section
-    const supportSection = this.createSupportSection();
+    const supportSection = this.createSupportSection(equipment);
     this.container.appendChild(supportSection);
     
     // Auxiliaries section
-    const auxiliariesSection = this.createAuxiliariesSection();
+    const auxiliariesSection = this.createAuxiliariesSection(equipment);
     this.container.appendChild(auxiliariesSection);
   }
   
-  createWeaponsSection() {
+  createWeaponsSection(equipment) {
     const weaponsContainer = document.createElement('div');
     weaponsContainer.className = 'equipment__weapons';
     
     // Create 4 weapon slots in cross pattern
     for (let i = 1; i <= 4; i++) {
-      const weaponSlot = this.createWeaponSlot(i);
+      const weaponSlot = this.createWeaponSlot(i, equipment);
       weaponsContainer.appendChild(weaponSlot);
     }
     
     return weaponsContainer;
   }
   
-  createWeaponSlot(number) {
+  createWeaponSlot(number, equipment) {
     const weaponDiv = document.createElement('div');
     weaponDiv.className = `equipment__weapon equipment__weapon--n${number}`;
     
     const slotId = `weapon${number}`;
-    const item = this.equipment[slotId];
+    const item = equipment[slotId] || null;
+    
+    // Add data attribute for event delegation
+    weaponDiv.setAttribute('data-slot-id', slotId);
     const rarity = item?.customAttr?.rarity ?? 0;
     const rarityColor = getRarityColor(rarity);
     
@@ -126,15 +156,12 @@ export class Equipment {
     weaponDiv.appendChild(slotContainer);
     weaponDiv.appendChild(numberBadge);
     
-    // Click handler - always attach, but check editable in triggerSlotClick
-    weaponDiv.addEventListener('click', () => {
-      this.triggerSlotClick(slotId, item);
-    });
+    // Event delegation handled by setupEventDelegation - no need to attach here
     
     return weaponDiv;
   }
   
-  createSupportSection() {
+  createSupportSection(equipment) {
     const supportContainer = document.createElement('div');
     supportContainer.className = 'equipment__support';
     
@@ -142,22 +169,25 @@ export class Equipment {
     usableContainer.className = 'equipment__supportUsable';
     
     // Repkit slot
-    const repkitSlot = this.createSupportSlot('repkit', 'bl4-repkit');
+    const repkitSlot = this.createSupportSlot('repkit', 'bl4-repkit', equipment);
     usableContainer.appendChild(repkitSlot);
     
     // Ordnance slot
-    const ordnanceSlot = this.createSupportSlot('ordnance', 'bl4-ordnance');
+    const ordnanceSlot = this.createSupportSlot('ordnance', 'bl4-ordnance', equipment);
     usableContainer.appendChild(ordnanceSlot);
     
     supportContainer.appendChild(usableContainer);
     return supportContainer;
   }
   
-  createSupportSlot(slotId, type) {
+  createSupportSlot(slotId, type, equipment) {
     const slotDiv = document.createElement('div');
     slotDiv.className = `equipment__${slotId}`;
     
-    const item = this.equipment[slotId];
+    const item = equipment[slotId] || null;
+    
+    // Add data attribute for event delegation
+    slotDiv.setAttribute('data-slot-id', slotId);
     const rarity = item?.customAttr?.rarity ?? 0;
     const rarityColor = getRarityColor(rarity);
     
@@ -210,38 +240,38 @@ export class Equipment {
     content.appendChild(iconWrapper);
     slotDiv.appendChild(content);
     
-    // Click handler - always attach, but check editable in triggerSlotClick
-    slotDiv.addEventListener('click', () => {
-      this.triggerSlotClick(slotId, item);
-    });
+    // Event delegation handled by setupEventDelegation - no need to attach here
     
     return slotDiv;
   }
   
-  createAuxiliariesSection() {
+  createAuxiliariesSection(equipment) {
     const auxContainer = document.createElement('div');
     auxContainer.className = 'equipment__auxiliaries';
     
     // Class Mod slot
-    const classModSlot = this.createAuxiliarySlot('class-mod', 'bl4-class-mod');
+    const classModSlot = this.createAuxiliarySlot('class-mod', 'bl4-class-mod', equipment);
     auxContainer.appendChild(classModSlot);
     
     // Shield slot
-    const shieldSlot = this.createAuxiliarySlot('shield', 'bl4-shield');
+    const shieldSlot = this.createAuxiliarySlot('shield', 'bl4-shield', equipment);
     auxContainer.appendChild(shieldSlot);
     
     // Enhancement slot
-    const enhancementSlot = this.createAuxiliarySlot('enhancement', 'bl4-enhancement');
+    const enhancementSlot = this.createAuxiliarySlot('enhancement', 'bl4-enhancement', equipment);
     auxContainer.appendChild(enhancementSlot);
     
     return auxContainer;
   }
   
-  createAuxiliarySlot(slotId, type) {
+  createAuxiliarySlot(slotId, type, equipment) {
     const slotDiv = document.createElement('div');
     slotDiv.className = `equipment__${slotId}`;
     
-    const item = this.equipment[slotId];
+    const item = equipment[slotId] || null;
+    
+    // Add data attribute for event delegation
+    slotDiv.setAttribute('data-slot-id', slotId);
     const rarity = item?.customAttr?.rarity ?? 0;
     const rarityColor = getRarityColor(rarity);
     
@@ -288,34 +318,41 @@ export class Equipment {
     content.appendChild(iconWrapper);
     slotDiv.appendChild(content);
     
-    // Click handler - always attach, but check editable in triggerSlotClick
-    slotDiv.addEventListener('click', () => {
-      this.triggerSlotClick(slotId, item);
-    });
+    // Event delegation handled by setupEventDelegation - no need to attach here
     
     return slotDiv;
   }
   
   setEditable(editable) {
-    this.editable = editable;
-    this.render();
+    console.log('[Equipment] setEditable called:', editable);
+    stateManager.setState({ editable });
+    // Re-render will happen automatically via subscription
   }
   
   isEditable() {
-    return this.editable;
+    return stateManager.getState().editable || false;
   }
   
   setItem(slotId, item) {
-    this.equipment[slotId] = item;
-    this.render();
+    console.log('[Equipment] setItem called:', slotId, item);
+    const state = stateManager.getState();
+    stateManager.setState({
+      equipment: {
+        ...state.equipment,
+        [slotId]: item
+      }
+    });
+    // Re-render will happen automatically via subscription
   }
   
   getItem(slotId) {
-    return this.equipment[slotId];
+    const state = stateManager.getState();
+    return state.equipment[slotId] || null;
   }
   
   getAllItems() {
-    return { ...this.equipment };
+    const state = stateManager.getState();
+    return { ...state.equipment };
   }
   
   onSlotClick(callback) {
@@ -323,19 +360,33 @@ export class Equipment {
   }
   
   triggerSlotClick(slotId, item) {
-    console.log('Slot clicked:', slotId, item, 'Editable:', this.editable);
-    if (!this.editable) {
-      console.log('Slot click ignored - not editable');
+    const state = stateManager.getState();
+    const editable = state.editable || false;
+    
+    console.log('[Equipment] triggerSlotClick:', slotId, item, 'Editable:', editable);
+    
+    if (!editable) {
+      console.log('[Equipment] Slot click ignored - not editable');
       return;
     }
-    console.log('Triggering slot click callbacks, count:', this.slotClickCallbacks.length);
+    
+    console.log('[Equipment] Triggering slot click callbacks, count:', this.slotClickCallbacks.length);
     this.slotClickCallbacks.forEach(cb => {
       try {
         cb(slotId, item || null);
       } catch (error) {
-        console.error('Error in slot click callback:', error);
+        console.error('[Equipment] Error in slot click callback:', error);
       }
     });
+  }
+  
+  /**
+   * Cleanup - unsubscribe from state changes
+   */
+  destroy() {
+    if (this.unsubscribe) {
+      this.unsubscribe();
+    }
   }
 }
 

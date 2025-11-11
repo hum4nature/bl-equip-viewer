@@ -235,13 +235,51 @@ export function getAssetUrlSync(path) {
 }
 
 /**
+ * Get the correct icon filename for a subtype ID
+ * Maps subtype IDs (like 'ar') to actual filenames (like 'assault.webp')
+ */
+export function getSubtypeIconPath(subtypeId) {
+  const subtypeToIconMap = {
+    'ar': 'assault',
+    'pistol': 'pistol',
+    'smg': 'smg',
+    'shotgun': 'shotgun',
+    'sniper': 'sniper',
+    'repkit': 'repkit',
+    'class-mod': 'class-mod',
+    'grenade': 'grenade',
+    'heavy-weapon': 'heavy-weapon',
+    'energy': 'energy',
+    'armor': 'armor',
+    'enhancement': 'enhancement'
+  };
+  
+  const iconName = subtypeToIconMap[subtypeId] || subtypeId;
+  return `generic-item-icons/${iconName}.webp`;
+}
+
+/**
  * Get augments filtered by item type and source
  */
 export function getAugmentsForItemType(gameData, itemType, currentItem = null) {
-  if (!gameData || !gameData.itemAugments) return [];
+  if (!gameData || !gameData.itemAugments) {
+    console.log('[getAugmentsForItemType] No game data or itemAugments:', {
+      hasGameData: !!gameData,
+      hasItemAugments: !!(gameData && gameData.itemAugments),
+      itemAugmentsCount: gameData?.itemAugments ? Object.keys(gameData.itemAugments).length : 0
+    });
+    return [];
+  }
   
   const augments = [];
   const source = getSourceFromItemType(itemType);
+  
+  console.log('[getAugmentsForItemType] Filtering augments:', {
+    itemType,
+    source,
+    totalAugments: Object.keys(gameData.itemAugments).length,
+    currentItem
+  });
   
   // Filter by source (weapon, repkit, ordnance, shield, etc.)
   Object.entries(gameData.itemAugments).forEach(([id, augment]) => {
@@ -257,13 +295,15 @@ export function getAugmentsForItemType(gameData, itemType, currentItem = null) {
     }
   });
   
+  console.log('[getAugmentsForItemType] Found augments:', augments.length);
+  
   return augments;
 }
 
 /**
  * Get source string from item type
  */
-function getSourceFromItemType(itemType) {
+export function getSourceFromItemType(itemType) {
   const sourceMap = {
     'bl4-weapon': 'weapon',
     'bl4-repkit': 'repkit',

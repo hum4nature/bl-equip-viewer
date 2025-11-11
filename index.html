@@ -167,12 +167,19 @@
         let notesHandler = null;
         
         async function init() {
-            console.log('Loading game data...');
+            console.log('[Init] Loading game data...');
+            
+            // Import state manager
+            const { stateManager } = await import('./js/state-manager.js');
+            
             try {
                 gameData = await loadGameData();
-                console.log('Game data loaded:', gameData);
+                console.log('[Init] Game data loaded:', gameData);
+                
+                // Store gameData in state
+                stateManager.setState({ gameData });
             } catch (error) {
-                console.error('Failed to load game data:', error);
+                console.error('[Init] Failed to load game data:', error);
                 // Continue with empty game data
                 gameData = {
                     manufacturers: {},
@@ -188,46 +195,48 @@
                     shields: {},
                     enhancements: {}
                 };
+                stateManager.setState({ gameData });
             }
             
             // Initialize equipment
             try {
                 equipment = new Equipment('equipment-container', gameData);
                 equipment.setEditable(true);
-                console.log('Equipment initialized');
+                console.log('[Init] Equipment initialized');
             } catch (error) {
-                console.error('Failed to initialize equipment:', error);
+                console.error('[Init] Failed to initialize equipment:', error);
                 return;
             }
             
-            // Initialize customize dialog - FIX: Remove 'let' to use outer scope variable
+            // Initialize customize dialog
             try {
                 customizeDialog = new CustomizeDialog('customize-dialog', gameData);
-                console.log('Customize dialog initialized');
+                console.log('[Init] Customize dialog initialized');
             } catch (error) {
-                console.error('Failed to initialize customize dialog:', error);
+                console.error('[Init] Failed to initialize customize dialog:', error);
                 // Try to create it anyway - the error might be recoverable
                 try {
                     customizeDialog = new CustomizeDialog('customize-dialog', gameData);
-                    console.log('Customize dialog initialized on retry');
+                    console.log('[Init] Customize dialog initialized on retry');
                 } catch (e2) {
-                    console.error('Dialog initialization completely failed:', e2);
+                    console.error('[Init] Dialog initialization completely failed:', e2);
                 }
             }
             
             // Connect equipment to dialog - MUST happen after both are initialized
             if (equipment) {
                 equipment.onSlotClick((slotId, currentItem) => {
-                    console.log('Opening customize dialog for:', slotId, 'Dialog available:', !!customizeDialog);
+                    console.log('[Init] Slot clicked, opening dialog:', slotId, 'Dialog available:', !!customizeDialog);
                     if (customizeDialog && typeof customizeDialog.open === 'function') {
                         customizeDialog.open(slotId, currentItem, (updatedItem) => {
+                            console.log('[Init] Item saved, updating equipment:', slotId, updatedItem);
                             equipment.setItem(slotId, updatedItem);
                         });
                     } else {
-                        console.error('Customize dialog not available or open method missing');
+                        console.error('[Init] Customize dialog not available or open method missing');
                     }
                 });
-                console.log('Slot click callback registered, callbacks count:', equipment.slotClickCallbacks.length);
+                console.log('[Init] Slot click callback registered, callbacks count:', equipment.slotClickCallbacks.length);
             }
             
             // Initialize strengths/weaknesses
@@ -266,7 +275,7 @@
                 });
             }
             
-            console.log('Equipment Editor initialized');
+            console.log('[Init] Equipment Editor initialized');
         }
         
         init().catch(console.error);
